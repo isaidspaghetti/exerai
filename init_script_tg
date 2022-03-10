@@ -1,0 +1,4 @@
+create user exeraiuser with password '123456789'
+alter role exeraiuser set default_timezone to 'UTC-7'
+
+GRANT ALL PRIVILEGES ON DATABASE exerai TO exeraiuser;
