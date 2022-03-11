@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+from . import models
+
+
+@admin.register(models.Movement)
+class AuthorAdmin(admin.ModelAdmin):
+    list_display = ('id', 'actionDescription', 'exerId', 'exercise', 'name', 'thumbnailUrl', 'versions')
+
+

@@ -1,0 +1,352 @@
+[
+    {
+        "model": "api.Exercise",
+        "pk": 90,
+        "fields": {
+            "name": "Shoulder Flexion"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 36,
+        "fields": {
+            "name": "Row - Prone"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 129,
+        "fields": {
+            "name": "Push-Ups on Knees"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 25,
+        "fields": {
+            "name": "Internal Shoulder Rotation"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 102,
+        "fields": {
+            "name": "Shoulder Extension - Prone"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 132,
+        "fields": {
+            "name": "Internal Shoulder Abduction/Rotation at 90\u00b0 - ROM"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 167,
+        "fields": {
+            "name": "Terminal Knee Extension - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 168,
+        "fields": {
+            "name": "Heel Slides - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 53,
+        "fields": {
+            "name": "Diagonal Up"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 117,
+        "fields": {
+            "name": "External Shoulder Rotation"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 154,
+        "fields": {
+            "name": "Tricep Extension"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 149,
+        "fields": {
+            "name": "External Rotation Stretch"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 164,
+        "fields": {
+            "name": "Shoulder Wall Slides"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 120,
+        "fields": {
+            "name": "PNF - D1 Diagonal Lifts"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 105,
+        "fields": {
+            "name": "Dynamic Hug"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 92,
+        "fields": {
+            "name": "Shoulder Flexion to 90\u00ba - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 165,
+        "fields": {
+            "name": "Row - Standing"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 154,
+        "fields": {
+            "name": "Tricep Extension"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 23,
+        "fields": {
+            "name": "Supine Punch"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 25,
+        "fields": {
+            "name": "Internal Shoulder Rotation"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 107,
+        "fields": {
+            "name": "Standing T"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 153,
+        "fields": {
+            "name": "Standing I"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 180,
+        "fields": {
+            "name": "Knee Flexion - Prone"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 36,
+        "fields": {
+            "name": "Row - Prone"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 152,
+        "fields": {
+            "name": "Standing Y"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 179,
+        "fields": {
+            "name": "Hip Flexion to 90\u00ba - Standing"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 177,
+        "fields": {
+            "name": "Squat (Prisoner)"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 177,
+        "fields": {
+            "name": "Squat (Prisoner)"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 175,
+        "fields": {
+            "name": "Squat"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 178,
+        "fields": {
+            "name": "Bridge"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 134,
+        "fields": {
+            "name": "External Shoulder Abduction/Rotation at 0\u00b0 - ROM"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 160,
+        "fields": {
+            "name": "Row - Seated"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 169,
+        "fields": {
+            "name": "Clamshell with Pillow - Side Lying"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 41,
+        "fields": {
+            "name": "Push-Ups"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 136,
+        "fields": {
+            "name": "Shoulder Extension - Prone - ROM"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 102,
+        "fields": {
+            "name": "Shoulder Extension - Prone"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 6,
+        "fields": {
+            "name": "External Shoulder Rotation - Side Lying"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 8,
+        "fields": {
+            "name": "External Rotation - Side-Lying"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 142,
+        "fields": {
+            "name": "Internal Shoulder Rotation Stretch - Sidelying"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 37,
+        "fields": {
+            "name": "Shoulder Flexion - Supine - ROM"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 114,
+        "fields": {
+            "name": "Shoulder Flexion AAROM - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 133,
+        "fields": {
+            "name": "External Shoulder Abduction/Rotation at 90\u00b0 - ROM"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 12,
+        "fields": {
+            "name": "External Shoulder Rotation with Abduction Stretch - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 140,
+        "fields": {
+            "name": "External Shoulder Rotation Stretch - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 141,
+        "fields": {
+            "name": "Cross Chest Stretch - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 166,
+        "fields": {
+            "name": "Straight Leg Raise (SLR) - Supine"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 160,
+        "fields": {
+            "name": "Row - Seated"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 118,
+        "fields": {
+            "name": "Wall Climb"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 135,
+        "fields": {
+            "name": "Shoulder Flexion - ROM"
+        }
+    },
+    {
+        "model": "api.Exercise",
+        "pk": 137,
+        "fields": {
+            "name": "Shoulder Extension - ROM"
+        }
+    }
+]
