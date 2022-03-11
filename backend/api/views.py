@@ -16,12 +16,37 @@ class MovementView(generics.ListAPIView):
     
 
 #Very Academy tutorial additions
-class MovementList(generics.ListCreateAPIView):
+class MovementListAPI(generics.ListCreateAPIView):
     queryset = Movement.objects.all()
     serializer_class = MovementSerializer
 
+class MovementList(viewsets.ViewSet):
+    
+    def list(self):
+        movements = Movement.objects.all()
+        serializer = MovementSerializer(movements)
+        if serializer.is_valid():
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 class MovementViewSet(viewsets.ViewSet):
 
+    def list(self, request):
+        print("LIST TEST")
+        try:
+
+            movements = Movement.objects.all()
+            print('got moves')
+            serializer = MovementSerializer(movements, many=True)
+            return Response(serializer.data, status.HTTP_200_OK)
+        except Exception as e:
+            return Response(
+                {
+                    "message": f"Error retrieving list.",
+                    "details": str(e),
+                },
+                status=status.HTTP_400_BAD_REQUEST,
+            )
 
     def get_entity(self, id):
         try:

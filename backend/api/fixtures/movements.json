@@ -1,14 +1,14 @@
 [
     {
         "model": "api.Movement",
-        "pk": 114,
+        "pk": 90,
         "fields": {
             "actionDescription": "\u2022 Start with the involved arm extended down at the hip.\n\u2022 Move the involved arm forward while maintaining an extended state.\n\u2022 Ensure that the thumb is pointed upwards to the ceiling as you move your involved arm. \n\u2022 Once you reach your maximum range of motion, return to the starting position to complete one rep.",
             "exerId": "S-AM-006",
             "exercise": {
-                "id": 90,
                 "name": "Shoulder Flexion"
             },
+            "id": 114,
             "name": "Shoulder Flexion (Single), Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-006.jpg",
             "versions": [
@@ -28,14 +28,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 191,
+        "pk": 36,
         "fields": {
             "actionDescription": "\u2022 Drop the involved arm off the side so that it hangs down. \n\u2022 Begin the movement by activating the scapula and packing it back in toward the spine for joint stability.\n\u2022 Row the involved arm up toward the ceiling till it is at least 90 degrees at the elbow.\n\u2022 Pause slightly then return to the starting position for the completion of a rep.",
             "exerId": "S-DS-001",
             "exercise": {
-                "id": 36,
                 "name": "Row - Prone"
             },
+            "id": 191,
             "name": "Row - Prone with Weights, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-001.jpg",
             "versions": [
@@ -48,14 +48,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 151,
+        "pk": 129,
         "fields": {
             "actionDescription": "\u2022 Start from a \u201cmodified high plank\u201d; arms straight, hands slightly wider than shoulder width, shoulders above wrists, core engaged, knees bent to 90 degrees so feet are off the floor.\n\u2022 Keep shoulders, hips, and knees in line as your slowly lower your chest toward the floor while bending your elbows.\n\u2022 Keep your elbows just slightly off your body to avoid them from flaring out.\n\u2022 Stop at your desired height based on ability.\n\u2022 Push back up to the starting position for the completion of a rep.",
             "exerId": "S-DS-008",
             "exercise": {
-                "id": 129,
                 "name": "Push-Ups on Knees"
             },
+            "id": 151,
             "name": "Push-Ups on Knees, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-008.jpg",
             "versions": [
@@ -75,14 +75,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 77,
+        "pk": 25,
         "fields": {
             "actionDescription": "\u2022 Elbow in as close to the ribs as possible, maintaining that throughout the duration of the exercise. \n\u2022 Keep the arm bent at 90 degrees (whether holding weight or band), and bring the hand/arm in towards the midline of the body and then slowly bring it back to the start.",
             "exerId": "S-AM-019",
             "exercise": {
-                "id": 25,
                 "name": "Internal Shoulder Rotation"
             },
+            "id": 77,
             "name": "Internal Shoulder Rotation",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-019.jpg",
             "versions": [
@@ -100,14 +100,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 189,
+        "pk": 102,
         "fields": {
             "actionDescription": "\u2022 Rest your head into the forearm of your uninvolved arm.\n\u2022 Straighten the involved arm so that the hand is by the hip with the thumb pointing down toward the ground. \n\u2022 Make sure the weight used is manageable before attempting a rep. \n\u2022 Maintain an extended arm as you move it up toward the ceiling. \n\u2022 Move till there is slight tension but no pain.\n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-DS-002",
             "exercise": {
-                "id": 102,
                 "name": "Shoulder Extension - Prone"
             },
+            "id": 189,
             "name": "Shoulder Extension - Prone with Weights, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-002.jpg",
             "versions": [
@@ -127,14 +127,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 209,
+        "pk": 132,
         "fields": {
             "actionDescription": "\u2022 Slide the elbow of the involved side out so that it is aligned with the shoulder while maintaining contact with the ground at all times.\n\u2022 Slowly lower the hand toward the feet while keeping the elbow pivoted on the ground. \n\u2022 Complete the downward range and return to the 90 degree starting position for the completion of a rep. \n\u2022 Minor tension is okay but there should not be any pain associated with this movement.",
             "exerId": "S-ROM-002",
             "exercise": {
-                "id": 132,
                 "name": "Internal Shoulder Abduction/Rotation at 90\u00b0 - ROM"
             },
+            "id": 209,
             "name": "Internal Shoulder Abduction/Rotation at 90\u00b0 - ROM, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-002.jpg",
             "versions": [
@@ -154,14 +154,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 216,
+        "pk": 167,
         "fields": {
             "actionDescription": "\u2022 The uninvolved leg can be bent at that knee with the foot flat on the ground. \n\u2022 Roll up a towel or use a soft pillow and place it underneath the achilles/heel area of the involved leg. \n\u2022 This will keep the involved leg elevated so that there is a bridge effect at the knee joint. \n\u2022 With the involved leg activated, try and touch the ground with the bottom of the involved knee, promoting extension at the joint. \n\u2022 Tension is okay but pain is not. \n\u2022 Return to the activated, slightly bent knee position and repeat.",
             "exerId": "HK-AM-002",
             "exercise": {
-                "id": 167,
                 "name": "Terminal Knee Extension - Supine"
             },
+            "id": 216,
             "name": "Terminal Knee Extension - Supine, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-002.jpg",
             "versions": [
@@ -181,14 +181,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 221,
+        "pk": 168,
         "fields": {
             "actionDescription": "\u2022 The uninvolved leg can be bent at that knee with the foot flat on the ground. \n\u2022 Carefully straighten the involved leg out so that it is out in front.\n\u2022 Remove any shoe or slipper that may add friction to the movement. \n\u2022 Start by flexing the toes of the involved leg toward the shin and slide the heel toward your butt. \n\u2022 Promote as much range of motion as possible.\n\u2022 Returning to the starting position for the completion of a rep.",
             "exerId": "HK-AM-003",
             "exercise": {
-                "id": 168,
                 "name": "Heel Slides - Supine"
             },
+            "id": 221,
             "name": "Heel Slides - Supine, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-003.jpg",
             "versions": [
@@ -208,14 +208,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 183,
+        "pk": 53,
         "fields": {
             "actionDescription": "\u2022 Wrap the theraband to a lower anchor point. \n\u2022 You can use your foot as an anchor point. \n\u2022 Start the involved arm with a small bend at the elbow and slightly out in front of the body. \n\u2022 Raise the arm up laterally while maintaining the bent position to a point of tension but not pain. \n\u2022 Return to starting position for the completion of a rep.",
             "exerId": "S-TS-016",
             "exercise": {
-                "id": 53,
                 "name": "Diagonal Up"
             },
+            "id": 183,
             "name": "Diagonal Up with Theraband",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-016.jpg",
             "versions": [
@@ -235,14 +235,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 60,
+        "pk": 117,
         "fields": {
             "actionDescription": "\u2022 The working arm should be bent at 90 degrees at the elbow with the hand starting from the mid-section. \n\u2022 Begin to externally rotate the shoulder moving the arm away from the mid section maintaining the 90 degree joint angle at the elbow. \n\u2022 Rotate the arm till there is slight tension and then slowly rotate back to mid-section, indicating one rep.",
             "exerId": "S-AM-018",
             "exercise": {
-                "id": 117,
                 "name": "External Shoulder Rotation"
             },
+            "id": 60,
             "name": "External Shoulder Rotation",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-018.jpg",
             "versions": [
@@ -260,14 +260,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 184,
+        "pk": 154,
         "fields": {
             "actionDescription": "\u2022 Looping the theraband around your forward foot and enter into a hinge position. \n\u2022 Retract both elbows up toward the ceiling and match the height of the ribs. \n\u2022 Maintain this position while you pivot underneath the elbow and extending the arms out behind you. \n\u2022 Try your best to get to full extension with both arms. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-TS-008",
             "exercise": {
-                "id": 154,
                 "name": "Tricep Extension"
             },
+            "id": 184,
             "name": "Tricep Extension with Theraband (Bilateral), Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-008.jpg",
             "versions": [
@@ -287,14 +287,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 2,
+        "pk": 149,
         "fields": {
             "actionDescription": null,
             "exerId": "S-SM-013",
             "exercise": {
-                "id": 149,
                 "name": "External Rotation Stretch"
             },
+            "id": 2,
             "name": "External Rotation Stretch with Cane, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/placeholder.jpg",
             "versions": [
@@ -305,14 +305,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 20,
+        "pk": 164,
         "fields": {
             "actionDescription": null,
             "exerId": "S-TS-021",
             "exercise": {
-                "id": 164,
                 "name": "Shoulder Wall Slides"
             },
+            "id": 20,
             "name": "Shoulder Wall Slides with Theraband, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-021.png",
             "versions": [
@@ -329,14 +329,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 21,
+        "pk": 120,
         "fields": {
             "actionDescription": "\u2022 Begin the movement by raising the involved arm up and across the body.\n\u2022 Move the hand and theraband up towards the opposite shoulder in a diagonal motion. \n\u2022 Hold at the top for a moment then return to the starting position and repeat.",
             "exerId": "S-TS-022",
             "exercise": {
-                "id": 120,
                 "name": "PNF - D1 Diagonal Lifts"
             },
+            "id": 21,
             "name": "PNF - D1 Diagonal Lifts with Theraband",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/75365d3f-f38e-4e08-9ca4-e98866a851c7.jpeg",
             "versions": [
@@ -353,14 +353,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 1,
+        "pk": 105,
         "fields": {
             "actionDescription": "\u2022 With your arms in a T position, initiate the movement by pressing both arms out and in. \n\u2022 Keep a slight bend in your elbows and round your shoulder blades as if you were trying to reach around a tree. \n\u2022 Hold for a moment then return to the starting position and repeat.",
             "exerId": "S-TS-023",
             "exercise": {
-                "id": 105,
                 "name": "Dynamic Hug"
             },
+            "id": 1,
             "name": "Dynamic Hug with Theraband",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/07941b24-9088-4402-9e2c-8b40093b1518.jpeg",
             "versions": [
@@ -377,14 +377,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 163,
+        "pk": 92,
         "fields": {
             "actionDescription": null,
             "exerId": "S-TS-024",
             "exercise": {
-                "id": 92,
                 "name": "Shoulder Flexion to 90\u00ba - Supine"
             },
+            "id": 163,
             "name": "Shoulder Flexion to 90\u00ba - Supine with Theraband (Single), Side-Facing",
             "thumbnailUrl": null,
             "versions": [
@@ -400,14 +400,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 201,
+        "pk": 165,
         "fields": {
             "actionDescription": "\u2022 Initiate the movement by squeezing your shoulder blades down and back. \n\u2022 Pull through your elbows and bring the band towards your rib cage. \n\u2022 While maintaining good posture and a neutral spine. \n\u2022 Hold for a moment, then return to the starting position and repeat.",
             "exerId": "S-TS-025",
             "exercise": {
-                "id": 165,
                 "name": "Row - Standing"
             },
+            "id": 201,
             "name": "Row - Standing with Theraband, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/873cdadb-c457-4c04-aaf6-25f80646cf1c.jpeg",
             "versions": [
@@ -424,14 +424,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 203,
+        "pk": 154,
         "fields": {
             "actionDescription": "\u2022 Anchor the theraband at head height or higher. \n\u2022 Keep your shoulder activated with the elbow pinned to the ribs.\n\u2022 Pivot around the elbow while driving the hand of the involved arm down toward the ground into extension. \n\u2022 Try your best to move through the full range of motion.\n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-TS-020",
             "exercise": {
-                "id": 154,
                 "name": "Tricep Extension"
             },
+            "id": 203,
             "name": "Tricep Extension with Theraband (Single)",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-020.jpg",
             "versions": [
@@ -450,14 +450,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 120,
+        "pk": 23,
         "fields": {
             "actionDescription": "\u2022 Begin the movement by making fist with your involved hand and slowly lift it off the floor. \n\u2022 Fully extend your arms as much as possible without pain. \n\u2022 Hold for a moment then return to the starting position and repeat.",
             "exerId": "S-AM-032",
             "exercise": {
-                "id": 23,
                 "name": "Supine Punch"
             },
+            "id": 120,
             "name": "Supine Punch, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-032.jpg",
             "versions": [
@@ -475,14 +475,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 170,
+        "pk": 25,
         "fields": {
             "actionDescription": "\u2022 Connect a theraband to an anchor point roughly at chest to hip height.\n\u2022 Keep the involved arm in front of the body and rested at 90 degrees at the elbow.\n\u2022 Holding onto the theraband with your involved arm.\n\u2022 You might feel minor tension in this position. \n\u2022 Start the exercise by maintaining these joint angles while you bring the involved arm back across the body to mid-line. \n\u2022 Feel free to bring the forearm all the way in till it touches your mid-section. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-TS-002",
             "exercise": {
-                "id": 25,
                 "name": "Internal Shoulder Rotation"
             },
+            "id": 170,
             "name": "Internal Shoulder Rotation with Theraband",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-002.jpg",
             "versions": [
@@ -501,14 +501,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 218,
+        "pk": 107,
         "fields": {
             "actionDescription": "\u2022 Grab the theraband from an anchor point out in front of you. \n\u2022 For the starting position, keep the hands out in front of the body while gripping the band, shoulders packed and activated at the shoulder blades. \n\u2022 Move the arms together up in the \"T\" position while maintaining the shoulder activation and body position. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-TS-006",
             "exercise": {
-                "id": 107,
                 "name": "Standing T"
             },
+            "id": 218,
             "name": "Standing T with Theraband with Anchor Point (Bilateral)",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-006.jpg",
             "versions": [
@@ -527,14 +527,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 69,
+        "pk": 153,
         "fields": {
             "actionDescription": "\u2022 Grab the theraband from an anchor point out in front of you. \n\u2022 For the starting position, keep the hands out in front of the body while gripping the band, shoulders packed and activated at the shoulder blades. \n\u2022 Move the arms together up in the \"I\" position while maintaining the shoulder activation and body position. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-TS-007",
             "exercise": {
-                "id": 153,
                 "name": "Standing I"
             },
+            "id": 69,
             "name": "Standing I with Theraband with Anchor Point",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-007.jpg",
             "versions": [
@@ -553,14 +553,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 190,
+        "pk": 180,
         "fields": {
             "actionDescription": "\u2022 Begin the movement by bending at the knee moving your heel towards your glutes. \n\u2022 Bend as far as possible while maintaining thigh contact to the floor.\n\u2022 You should feel a stretch in front of your leg and knee. \n\u2022 Return leg back to starting position and repeat.",
             "exerId": "HK-AM-014",
             "exercise": {
-                "id": 180,
                 "name": "Knee Flexion - Prone"
             },
+            "id": 190,
             "name": "Knee Flexion - Prone, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-014.jpg",
             "versions": [
@@ -575,14 +575,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 67,
+        "pk": 36,
         "fields": {
             "actionDescription": "\u2022 Drop the involved arm off the side so that it hangs down. \n\u2022 Begin the movement by activating the scapula and packing it back in toward the spine for joint stability. \n\u2022 Row the involved arm up toward the ceiling till at least 90 degrees at the elbow.\n\u2022 Pause slightly then return to the starting position for the completion of a rep.",
             "exerId": "S-AM-003",
             "exercise": {
-                "id": 36,
                 "name": "Row - Prone"
             },
+            "id": 67,
             "name": "Row - Prone, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-003.jpg",
             "versions": [
@@ -595,14 +595,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 173,
+        "pk": 152,
         "fields": {
             "actionDescription": "\u2022 Grab the theraband from an anchor point out in front of you. \n\u2022 For the starting position, keep the hands out in front of the body while gripping the band, shoulders packed and activated at the shoulder blades. \n\u2022 Move the arms together up in the \"Y\" position while maintaining the shoulder activation and body position. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-TS-005",
             "exercise": {
-                "id": 152,
                 "name": "Standing Y"
             },
+            "id": 173,
             "name": "Standing Y with Theraband with Anchor Point",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-005.jpg",
             "versions": [
@@ -621,14 +621,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 205,
+        "pk": 179,
         "fields": {
             "actionDescription": "\u2022 Stand tall side facing to the camera, with feet shoulder width apart and firmly rooted into the ground, engage your core to initiate the movement.\n\u2022 Slowly lift your leg closest to the camera, allowing your knee to bend, until you reach 90 degrees of hip flexion, or your available pain-free range of motion.\n\u2022 Focus on engaging the core and hip muscles of your stance leg for improved balance.\n\u2022 Pause one second at the top and then return to your starting position.\n\u2022 A rep will count when you are standing at starting position with both feet on the floor.",
             "exerId": "HK-AM-013",
             "exercise": {
-                "id": 179,
                 "name": "Hip Flexion to 90\u00ba - Standing"
             },
+            "id": 205,
             "name": "Hip Flexion to 90\u00ba - Standing, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-013.jpg",
             "versions": [
@@ -648,14 +648,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 208,
+        "pk": 177,
         "fields": {
             "actionDescription": "\u2022 Put both hands behind the head or put your fingers up by your ears.\n\u2022 Push the elbows back as if you were attempting to touch a wall behind you. \n\u2022 Engage the core, and keep the feet rooted to ground so that you feel a strong, stable foundation. \n\u2022 Initiate the movement by setting the hips back over the heels as you squat down. \n\u2022 A recommended range of motion is getting your butt to knee height. \n\u2022 Maintain a long forward spine angle with a fixed gaze roughly 45 degrees out in front of you. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "HK-AM-009S",
             "exercise": {
-                "id": 177,
                 "name": "Squat (Prisoner)"
             },
+            "id": 208,
             "name": "Squat (Prisoner), Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-009S.jpg",
             "versions": [
@@ -675,14 +675,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 207,
+        "pk": 177,
         "fields": {
             "actionDescription": "\u2022 Put both hands behind the head or put your fingers up by your ears.\n\u2022 Push the elbows back as if you were attempting to touch a wall behind you. \n\u2022 Engage the core, and keep the feet rooted to ground so that you feel a strong, stable foundation. \n\u2022 Initiate the movement by setting the hips back over the heels as you squat down. \n\u2022 A recommended range of motion is getting your butt to knee height. \n\u2022 Maintain a long forward spine angle with a fixed gaze roughly 45 degrees out in front of you. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "HK-AM-009",
             "exercise": {
-                "id": 177,
                 "name": "Squat (Prisoner)"
             },
+            "id": 207,
             "name": "Squat (Prisoner)",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-009.jpg",
             "versions": [
@@ -702,14 +702,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 31,
+        "pk": 175,
         "fields": {
             "actionDescription": "\u2022 Begin by standing tall with feet slightly wider than hips and toes facing forward or slightly turned out.\n\u2022 Initiate the movement by pushing your hips slightly back while bending at the hips and knees until you reach the bottom of your squat.\n\u2022 Maintain a forward gaze and an upright chest. Weight should be evenly distributed through your entire foot, and on both feet.\n\u2022 Press through the whole foot while standing back up to starting position.\n\u2022 A rep will count when you return to your upright starting position.",
             "exerId": "HK-AM-011",
             "exercise": {
-                "id": 175,
                 "name": "Squat"
             },
+            "id": 31,
             "name": "Squat, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-011.jpg",
             "versions": [
@@ -729,14 +729,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 168,
+        "pk": 178,
         "fields": {
             "actionDescription": "\u2022 Bend your knees so the feet are flat on the floor. \n\u2022 Keep your arms rested at 45 degrees at your side. \n\u2022 Engage the core by driving the belly button down to the floor.\n\u2022 Initiate the movement by driving the hips upward toward the ceiling, doing your best to engage the glutes. \n\u2022 Proceed to the maximum range of motion without overextending. \n\u2022 Return to the starting position for the completion of a rep. \n\u2022 Pay close attention to the PT\u2019s protocol for tempo, isometric holds, and rep counting.",
             "exerId": "HK-AM-012",
             "exercise": {
-                "id": 178,
                 "name": "Bridge"
             },
+            "id": 168,
             "name": "Bridge (Bilateral), Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-012.jpg",
             "versions": [
@@ -756,14 +756,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 119,
+        "pk": 134,
         "fields": {
             "actionDescription": "\u2022 Start with the involved arm bent at 90 degrees at the elbow and the forearm positioned across the midline of the body.\n\u2022 Slowly move the forearm outside the body while maintaining the elbow close to the body. \n\u2022 Continue to maximal range of motion then slowly rotate back to the starting position. \n\u2022 Minor tension is okay but there should not be any pain associated with this movement.",
             "exerId": "S-ROM-009",
             "exercise": {
-                "id": 134,
                 "name": "External Shoulder Abduction/Rotation at 0\u00b0 - ROM"
             },
+            "id": 119,
             "name": "External Shoulder Abduction/Rotation at 0\u00b0 - ROM",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-009.jpg",
             "versions": [
@@ -783,14 +783,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 101,
+        "pk": 160,
         "fields": {
             "actionDescription": "\u2022 Wrap the theraband around both feet with your legs out in front of you. \n\u2022 If you are unable to straighten the legs all the way, just keep the heels pinned down to the ground. \n\u2022 Maintain an upright posture and pull the band toward you with both arms.\n\u2022 Keep the elbows locked to the ribs and shoulder blades actively retracted. \n\u2022 Pull the theraband all the way in.\n\u2022 Slowly release it back to the straight arm starting position for the completion of a rep.",
             "exerId": "S-TS-014",
             "exercise": {
-                "id": 160,
                 "name": "Row - Seated"
             },
+            "id": 101,
             "name": "Row - Seated with Theraband (Bilateral), Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-014.jpg",
             "versions": [
@@ -810,14 +810,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 113,
+        "pk": 169,
         "fields": {
             "actionDescription": "\u2022 Begin the movement by raising your involved knee up, while rotating slightly out. \n\u2022 Keep your big toes touching and lift without altering the alignment of your hips.\n\u2022 Hold at the top and return to starting position and repeat.",
             "exerId": "HK-AM-004",
             "exercise": {
-                "id": 169,
                 "name": "Clamshell with Pillow - Side Lying"
             },
+            "id": 113,
             "name": "Clamshell with Pillow - Side Lying",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-004.jpg",
             "versions": [
@@ -836,14 +836,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 149,
+        "pk": 41,
         "fields": {
             "actionDescription": "\u2022 Starting in a plank position with your elbows straight, arms slightly wider than shoulder width. Your shoulders should be above your wrist with your core engaged.\n\u2022 Begin the movement by bending your elbows and slowly lowering your chest to the floor while keeping your shoulder over your wrist, and core engaged.\n\u2022 Keep your elbows just slightly wider than your body without flaring out.\n\u2022 Stop at your desired height based on ability.\n\u2022 A rep will count when you return to the top of your plank.",
             "exerId": "S-DS-003",
             "exercise": {
-                "id": 41,
                 "name": "Push-Ups"
             },
+            "id": 149,
             "name": "Push-Ups, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-003.jpg",
             "versions": [
@@ -863,14 +863,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 219,
+        "pk": 136,
         "fields": {
             "actionDescription": "\u2022 Rest your head on your non-involved forearm.\n\u2022 Gently rotate the thumb toward the ground for internal rotation.\n\u2022 Move the involved arm upwards towards the ceiling till you reach maximum range of motion.\n\u2022 Minor tension is okay but there should be zero pain associated with the movement.",
             "exerId": "S-ROM-012",
             "exercise": {
-                "id": 136,
                 "name": "Shoulder Extension - Prone - ROM"
             },
+            "id": 219,
             "name": "Shoulder Extension - Prone - ROM, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-012.jpg",
             "versions": [
@@ -890,14 +890,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 80,
+        "pk": 102,
         "fields": {
             "actionDescription": "\u2022 Rest your head into the forearm of your uninvolved arm.\n\u2022 Straighten the involved arm so that the hand is by the hip with the thumb pointing down toward the ground. \n\u2022 Maintain an extended arm as you move it up toward the ceiling. \n\u2022 Move till there is slight tension but no pain.\n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-AM-002",
             "exercise": {
-                "id": 102,
                 "name": "Shoulder Extension - Prone"
             },
+            "id": 80,
             "name": "Shoulder Extension - Prone, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-002.jpg",
             "versions": [
@@ -917,14 +917,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 76,
+        "pk": 6,
         "fields": {
             "actionDescription": "\u2022 Rest your head on a pillow or on the upper portion of your uninvolved arm.\n\u2022 The involved arm should be at 90 degrees with the elbow tucked into the ribcage. \n\u2022 Pivot the elbow from this position so that the wrist moves vertically downwards, creating an external rotation at the shoulder joint.\n\u2022 Rotate downwards till there is slight tension and slowly come back to the starting position for the completion of one rep.",
             "exerId": "S-AM-001",
             "exercise": {
-                "id": 6,
                 "name": "External Shoulder Rotation - Side Lying"
             },
+            "id": 76,
             "name": "External Shoulder Rotation - Side Lying",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-001.jpg",
             "versions": [
@@ -944,14 +944,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 193,
+        "pk": 8,
         "fields": {
             "actionDescription": "\u2022 Rest your head on a pillow or on the upper portion of your uninvolved arm.\n\u2022 The involved arm should be at 90 degrees with the elbow tucked into the ribcage. \n\u2022 Starting from a rested but activated position, pivot around the elbow and move the hand upward toward the ceiling. \n\u2022 Do your best to keep the elbow into the ribs and the shoulder set back to maintain activation. \n\u2022 Move upward till there is some tension but no pain. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-DS-004",
             "exercise": {
-                "id": 8,
                 "name": "External Rotation - Side-Lying"
             },
+            "id": 193,
             "name": "External Rotation - Side-Lying with Weights, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-004.jpg",
             "versions": [
@@ -971,14 +971,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 87,
+        "pk": 142,
         "fields": {
             "actionDescription": "\u2022 The elbow of the involved arm (bottom arm) should be out from the body so that it can be mobile. \n\u2022 Use the uninvolved arm (upper arm) to facilitate this internal stretch. \n\u2022 Grab the wrist area and gently move theinvolved arm down toward the ground while pivoting at the elbow. \n\u2022 It is important to not push too hard or go too far. \n\u2022 Tension is alright, pain is not. \n\u2022 Return to the top of this movement for completion of a rep.",
             "exerId": "S-SM-005",
             "exercise": {
-                "id": 142,
                 "name": "Internal Shoulder Rotation Stretch - Sidelying"
             },
+            "id": 87,
             "name": "Internal Shoulder Rotation Stretch - Sidelying, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-SM-005.jpg",
             "versions": [
@@ -997,14 +997,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 188,
+        "pk": 37,
         "fields": {
             "actionDescription": "\u2022 Keep the involved arm fully extended and shoulder packed in.\n\u2022 While keeping the thumb of the involved arm facing up, flex the arm overhead till you reach maximum range of motion. \n\u2022 Return back to starting position for the completion of a rep.",
             "exerId": "S-ROM-010",
             "exercise": {
-                "id": 37,
                 "name": "Shoulder Flexion - Supine - ROM"
             },
+            "id": 188,
             "name": "Shoulder Flexion - Supine - ROM, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-010.jpg",
             "versions": [
@@ -1024,14 +1024,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 65,
+        "pk": 114,
         "fields": {
             "actionDescription": "\u2022 You will need a dowel or broomstick-like feature in order to facilitate this flexion movement. \n\u2022 Once in position, start with both hands shoulder width apart on the dowel positioned at your waistline. \n\u2022 Slowly move both arms evenly, asserting a larger percentage of effort via the good side, as you move up and overhead. \n\u2022 Move to a position of tension but no pain. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-AM-014",
             "exercise": {
-                "id": 114,
                 "name": "Shoulder Flexion AAROM - Supine"
             },
+            "id": 65,
             "name": "Shoulder Flexion AAROM - Supine with Cane, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-014.jpg",
             "versions": [
@@ -1051,14 +1051,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 220,
+        "pk": 133,
         "fields": {
             "actionDescription": "\u2022 Slide the elbow of the involved side out so that it is aligned with the shoulder while maintaining contact with the ground at all times.\n\u2022 Slowly lower the hand down behind you while keeping the elbow pivoted on the ground. \n\u2022 Complete the downward range and return to the 90 degree starting position for the completion of a rep. \n\u2022 Minor tension is okay but there should not be any pain associated with this movement.",
             "exerId": "S-ROM-003",
             "exercise": {
-                "id": 133,
                 "name": "External Shoulder Abduction/Rotation at 90\u00b0 - ROM"
             },
+            "id": 220,
             "name": "External Shoulder Abduction/Rotation at 90\u00b0 - ROM, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-003.jpg",
             "versions": [
@@ -1078,14 +1078,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 192,
+        "pk": 12,
         "fields": {
             "actionDescription": "\u2022 To initiate the movement, slowly lower your hand down behind you while keeping the elbow pivoted to the floor. \n\u2022 Complete the downward range and hold for a moment then repeat. \n",
             "exerId": "S-SM-003",
             "exercise": {
-                "id": 12,
                 "name": "External Shoulder Rotation with Abduction Stretch - Supine"
             },
+            "id": 192,
             "name": "External Shoulder Rotation with Abduction Stretch - Supine, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/6eaeec17-fadb-43cc-9d5a-201f2c1ab622.jpeg",
             "versions": [
@@ -1103,14 +1103,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 171,
+        "pk": 140,
         "fields": {
             "actionDescription": "\u2022 The involved arm position should be 90 degrees at the elbow with the hand facing up toward the ceiling.\n\u2022 Gently allow the involved arm to fall out towards the camera while pivoting the movement around the elbow. \n\u2022 Do your best to maintain the elbow in contact with the ground let the involved arm rotate out till there is minor tension but no pain.\n\u2022 Return to the starting position.",
             "exerId": "S-SM-002",
             "exercise": {
-                "id": 140,
                 "name": "External Shoulder Rotation Stretch - Supine"
             },
+            "id": 171,
             "name": "External Shoulder Rotation Stretch - Supine, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-SM-002.jpg",
             "versions": [
@@ -1129,14 +1129,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 169,
+        "pk": 141,
         "fields": {
             "actionDescription": "\u2022 Gently move the involved arm up and across your body just below the chest line. \n\u2022 Use the other uninvolved arm to help facilitate the crossing stretch motion. \n\u2022 It is important to not go too far. \n\u2022 Hold for a few moments when you feel tension. \n\u2022 Return back to the starting position.",
             "exerId": "S-SM-004",
             "exercise": {
-                "id": 141,
                 "name": "Cross Chest Stretch - Supine"
             },
+            "id": 169,
             "name": "Cross Chest Stretch - Supine, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-SM-004.jpg",
             "versions": [
@@ -1155,14 +1155,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 224,
+        "pk": 166,
         "fields": {
             "actionDescription": "\u2022 Lying on your back and side facing to the camera, align the involved side so that it\u2019s closest to the camera. \n\u2022 The non-involved leg can be bent at that knee with the foot flat on the ground as displayed. \n\u2022 Maintain extension with the involved leg as you slowly bring it up toward the ceiling. \n\u2022 Pay close attention to your PT's or physician's protocol for height variance, and do your best to keep a strong extended leg at all times. \n\u2022 Move through the range of motion for a completion of a rep.",
             "exerId": "HK-AM-001",
             "exercise": {
-                "id": 166,
                 "name": "Straight Leg Raise (SLR) - Supine"
             },
+            "id": 224,
             "name": "Straight Leg Raise (SLR) - Supine, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-001.jpg",
             "versions": [
@@ -1182,14 +1182,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 172,
+        "pk": 160,
         "fields": {
             "actionDescription": "\u2022 Wrap the theraband around both feet with your legs out in front of you. \n\u2022 If you are unable to straighten the legs all the way, just keep the heels pinned down to the ground. \n\u2022 Maintain an upright posture and pull the band toward you with the involved arm.\n\u2022 Keep the elbow locked to the ribs and shoulder blades actively retracted. \n\u2022 Pull the theraband all the way in.\n\u2022 Slowly release it back to the straight arm starting position for the completion of a rep.",
             "exerId": "S-TS-015",
             "exercise": {
-                "id": 160,
                 "name": "Row - Seated"
             },
+            "id": 172,
             "name": "Row - Seated with Theraband (Single), Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-015.jpg",
             "versions": [
@@ -1209,14 +1209,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 63,
+        "pk": 118,
         "fields": {
             "actionDescription": "\u2022 Position yourself in front of a wall as the wall will be used to facilitate this movement.\n\u2022 Climb the involved arm up the wall, while keeping the elbow and forearm as vertical as you can, to a place of tension but zero pain.\n\u2022 Try your best to achieve a maximum range of motion but to move slowly and smoothly. \n\u2022 Return to the starting position for the completion of a rep.",
             "exerId": "S-AM-020",
             "exercise": {
-                "id": 118,
                 "name": "Wall Climb"
             },
+            "id": 63,
             "name": "Wall Climb, Rear-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-020.jpg",
             "versions": [
@@ -1236,14 +1236,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 215,
+        "pk": 135,
         "fields": {
             "actionDescription": "\u2022 Begin with the arms at the side, elbows fully extended and palms facing inward toward your hips. \n\u2022 Start by moving the involved arm straight up toward the ceiling without breaking form at the elbow joint. \n\u2022 Maintain the position of the arm as you move through the movement. \n\u2022 Once full shoulder flexion is achieved, hold for a moment, then slowly return to the starting position.",
             "exerId": "S-ROM-011",
             "exercise": {
-                "id": 135,
                 "name": "Shoulder Flexion - ROM"
             },
+            "id": 215,
             "name": "Shoulder Flexion - ROM, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-011.jpg",
             "versions": [
@@ -1263,14 +1263,14 @@
     },
     {
         "model": "api.Movement",
-        "pk": 196,
+        "pk": 137,
         "fields": {
             "actionDescription": "\u2022 Stand tall with arms down at your side, and your palm facing in towards your hip.\n\u2022 Slowly extend arm straight back, keeping elbow straight and trunk upright.\n\u2022 Reach to the end of your available range of motion with minimal pain.\n\u2022 Hold the position at max range till measurement is clearly given.\n\u2022 Repeat the movement for 5 reps, and your measurement will be based on the best of 5 attempts.",
             "exerId": "S-ROM-013",
             "exercise": {
-                "id": 137,
                 "name": "Shoulder Extension - ROM"
             },
+            "id": 196,
             "name": "Shoulder Extension - ROM, Side-Facing",
             "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-013.jpg",
             "versions": [

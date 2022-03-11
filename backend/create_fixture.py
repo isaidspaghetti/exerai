@@ -38,7 +38,7 @@ def main():
             for movement in dict_list:
                 fixture_data.append({
                     "model": "api.Movement", #TODO: make model name a variable
-                    "pk": movement.pop("id"),
+                    "pk": movement['exercise'].pop("id"),
                     "fields": movement
                 })
 

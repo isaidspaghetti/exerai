@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite'
+      },
+
       colors: {
         primary: {
           500: '#12141D',
@@ -25,11 +29,11 @@ module.exports = {
         },
         splash: {
           500: '#554D98',
-          600: '#443E7A'
+          600: '#443E7A',
         },
-        text: {
-          neutral: '#8F9094'
-        }
+        neutral: {
+          500: '#8F9094',
+        },
       },
     },
 },
