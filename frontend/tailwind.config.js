@@ -1,23 +1,23 @@
 module.exports = {
   mode: 'jit',
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 3s linear infinite'
+        'spin-slow': 'spin 3s linear infinite',
       },
 
       colors: {
         primary: {
           500: '#12141D',
-          600: '#0E1017'
+          600: '#0E1017',
         },
         secondary: {
-          400: "#2B2E3B",
-          500: "#1e2029",
-          600: "#181A21",
+          400: '#2B2E3B',
+          500: '#1e2029',
+          600: '#181A21',
         },
         tiffany: {
           500: '#2BB9B3',
@@ -36,6 +36,6 @@ module.exports = {
         },
       },
     },
-},
+  },
   plugins: [],
-}
+};
