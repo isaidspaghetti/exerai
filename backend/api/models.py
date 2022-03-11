@@ -7,7 +7,7 @@ class Exercise(models.Model):
 class Movement(models.Model):
     actionDescription = models.TextField(default="", null=True)
     exerId = models.CharField(max_length=50, unique=True)
-    exercise = models.OneToOneField(Exercise, on_delete=models.PROTECT, default=1)
+    exercise = models.ForeignKey(Exercise, on_delete=models.PROTECT)
     # TODO: one to one relationship with an exercise table, serialize the data
     name = models.CharField(max_length=155, null=False)
     thumbnailUrl = models.URLField(null=True)

@@ -7,18 +7,13 @@ import sys
 # Parse inputs
 def init_argparse() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        usage="%(prog)s [INPUT FILE PATH] [FIXTURE NAME]",
+        usage="%(prog)s [INPUT FILE PATH]",
         description="Create a fixture file from a json file."
     )
     parser.add_argument(
         "input_path",
         metavar="input path",
         help="Relative path to the JSON input file."
-    )
-    parser.add_argument(
-        "fixture_name",
-        metavar="fixture name",
-        help="Name of the fixture file to create (do not include extension)",
     )
     return parser
 
@@ -34,17 +29,29 @@ def main():
             dict_list = json.load(json_data)
             # TODO: validate data, form errors
             # Alter the dictionary to match django fixture format
-            fixture_data = []
+            movements = []
+            exercises = []
             for movement in dict_list:
-                fixture_data.append({
+                
+                exercises.append({
+                    "model": "api.Exercise",
+                    "pk": movement['exercise']['id'],
+                    "fields": {
+                        "name": movement['exercise']['name']
+                    }
+                })
+                movements.append({
                     "model": "api.Movement", #TODO: make model name a variable
-                    "pk": movement['exercise'].pop("id"),
-                    "fields": movement
+                    "pk": movement['exercise']['id'],
+                    "fields": {**movement, 'exercise': movement['exercise']['id']}
                 })
 
-            # Create the fixture file
-            with open(f"api/fixtures/{args.fixture_name}.json", "w") as fixture_file:
-                json.dump(fixture_data, fixture_file, indent=4)
+
+            # Create the fixture files
+            with open(f"api/fixtures/movements.json", "w") as fixture_file:
+                json.dump(movements, fixture_file, indent=4)
+            with open(f"api/fixtures/exercises.json", "w") as fixture_file:
+                json.dump(exercises, fixture_file, indent=4)
 
     except Exception as e:
         print('Failed: ', e)

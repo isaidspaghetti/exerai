@@ -36,7 +36,6 @@ class MovementViewSet(viewsets.ViewSet):
         try:
 
             movements = Movement.objects.all()
-            print('got moves')
             serializer = MovementSerializer(movements, many=True)
             return Response(serializer.data, status.HTTP_200_OK)
         except Exception as e:
