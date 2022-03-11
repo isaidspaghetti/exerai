@@ -41,3 +41,8 @@ cd ../frontend
 npm install
 npm start
 ```
+
+7. Admin framework:
+Create a superuser to use the admin framework:
+`python manage.py createsuperuser`
+Use these credentials on the admin site which can be reached at localhost:8000/admin
