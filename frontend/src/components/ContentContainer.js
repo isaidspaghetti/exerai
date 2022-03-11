@@ -1,6 +1,7 @@
 const ContentContainer = ()=> {
   return(
-    <div className="flex border-green-600">   {' '}</div>
+    <div className="flex border-green-600">   {' '}
+    </div>
   )
 }
 
