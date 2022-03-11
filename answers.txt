@@ -1,0 +1,18 @@
+1. A new field that represents the orientation of the camera necessary to assess the exercise. The valid values for this field are `PORTRAIT` and `LANDSCAPE`. How would you update your API to support this field?
+I'd add this field to the existing movements model. You could use a Field.choices to avoid magic numbering the data. 
+2. Consider the scenario where this service is powering an iOS application that receives thousands of downloads. The API you created will suddenly need to scale to support an immense number of requests. What do you do?
+Add a lot more tests! 
+Include a load ballancer like Nginx to manage traffic. 
+Limit the number of ORM queries with a django plugin.
+Add a pooler like pgbounce.
+Cache the views. 
+Setup timeouts for all db connections to avoid soak crashes. 
+Paginate the frontend to only send 10 movements at a time. 
+Consider compressing the images, or see if hosting on s3 is faster.
+On frontend cache the html.
+Check to memoize callbacks.
+
+3. Consider that the service grows to contain hundreds or even thousands of `Movements`. How would you change the API you created to support this many movements?
+See above ;). 
+Especially pagination of requests using an infinite scroll to trigger the fetch.
+Break down the table into only pivotal information to be served, JOIN the rest of the data.
