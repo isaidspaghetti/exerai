@@ -1,7 +1,7 @@
 from api import views
-from api.views import MovementList, MovementViewSet
+from api.views import MovementViewSet
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -14,5 +14,7 @@ urlpatterns = [
     path("movement/<int:pk>", MovementViewSet.as_view(
         {"get": "retrieve", "put": "update", "delete": "destroy"}
     ) ),
-    # path('', MovementsList.as_view(), name='listcreate')
+    path('search/',views.search),
+
+
 ]

@@ -13,7 +13,9 @@
       text-tiffany-600 hover:text-white
       hover:rounded-xl rounded-3xl
       transition-all duration-300 ease-linear
-      cursor-pointer shadow-lg;
+      cursor-pointer shadow-lg
+      disabled:bg-secondary-500 disabled:opacity-25
+      disabled:cursor-not-allowed;
   }
 
   .sidebar-tooltip {
@@ -28,5 +30,16 @@
   .loading-spinner {
     @apply flex items-center justify-center fill-tiffany-600
     animate-spin-slow;
+  }
+
+  .search-input {
+    @apply flex focus:shadow pl-4 text-tiffany-500 focus:outline-tiffany-500
+     bg-secondary-600 rounded-lg border shadow-md md:flex-row md:max-w-full 
+     hover:bg-secondary-500 border-secondary-400 dark:border-secondary-400 
+     dark:bg-secondary-500 dark:hover:bg-secondary-400;
+  }
+
+  .search-errors {
+    @apply flex text-red-500 ml-10 animate-pulse duration-1000;
   }
 }
