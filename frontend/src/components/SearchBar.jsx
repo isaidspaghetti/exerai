@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { React, useState } from 'react';
 import { FaSearch, FaCircleNotch } from 'react-icons/fa';
 import axios from 'axios';

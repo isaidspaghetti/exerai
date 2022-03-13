@@ -5,9 +5,7 @@ const MovementCard = ({
 }) => (
   <div
     key={exerId}
-    className="flex flex-col my-8 items-center bg-secondary-600 rounded-lg border
-      shadow-md md:flex-row md:max-w-full hover:bg-secondary-500 border-secondary-400
-      dark:border-secondary-400 dark:bg-secondary-500 dark:hover:bg-secondary-400"
+    className="movement-card"
   >
       <img
         className="object-cover w-full h-96 rounded-t-lg ml-4 my-4 md:h-auto md:w-48 md:rounded-lg"

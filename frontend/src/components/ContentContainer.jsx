@@ -47,7 +47,6 @@ const ContentContainer = ({ searchResults }) => {
       {isLoading && <Loading />}
       {/* if search results exist, render those */}
       {searchResults ? renderCards(searchResults) : movements && renderCards(movements) }
-
     </div>
   );
 };

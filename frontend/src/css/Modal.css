@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ .form-label {
+   @apply block mb-2 text-sm font-medium text-neutral-400 dark:text-neutral-400 focus:text-tiffany-500;
+ }
+
+ .form-input {
+   @apply shadow-2xl border text-sm 
+   rounded-lg block w-full p-2.5
+   bg-transparent border-neutral-400 placeholder-neutral-400 text-neutral-400 
+   focus:ring-tiffany-500 focus:border-tiffany-500 focus:bg-transparent focus:border-2
+   focus:text-tiffany-500 focus:placeholder-tiffany-500;
+ }
+
+ .submit-button {
+    @apply relative flex items-center justify-center
+      h-12 w-full mt-2 mb-2 mx-auto
+      bg-secondary-500 hover:bg-tiffany-500
+      text-tiffany-600 hover:text-white
+      hover:rounded-xl rounded-3xl
+      transition-all duration-300 ease-linear
+      cursor-pointer shadow-lg
+      disabled:bg-secondary-500 disabled:opacity-25
+      disabled:cursor-not-allowed;
+  }
+
+}

@@ -66,14 +66,14 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
-    'no-console': ['error', {
-      allow: [
-        'assert', 'clear', 'count', 'countReset', 'debug',
-        'dir', 'dirxml', 'error', 'group', 'groupCollapsed',
-        'groupEnd', 'info', 'table', 'time', 'timeEnd',
-        'timeLog', 'trace', 'warn',
-      ],
-    }],
+    // 'no-console': ['error', {
+    //   allow: [
+    //     'assert', 'clear', 'count', 'countReset', 'debug',
+    //     'dir', 'dirxml', 'error', 'group', 'groupCollapsed',
+    //     'groupEnd', 'info', 'table', 'time', 'timeEnd',
+    //     'timeLog', 'trace', 'warn',
+    //   ],
+    // }],
     'no-labels': ['off'],
     'no-lonely-if': ['off'],
     'no-nested-ternary': ['off'],

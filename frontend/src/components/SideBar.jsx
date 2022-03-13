@@ -3,7 +3,7 @@ import {
   FaPlus, FaPencilAlt, FaMinus, FaWalking,
 } from 'react-icons/fa';
 
-const SideBar = ({ showAll }) => (
+const SideBar = ({ showAll, toggleModal }) => (
     <div className="flex sticky top-0 left-0 h-screen w-16 flex-col
                 bg-primary-500 text-neutral shadow-lg"
     >
@@ -12,21 +12,21 @@ const SideBar = ({ showAll }) => (
          text="View all movements 💡"
          action={() => { console.log('clicked'); showAll(); }}
        />
-      <SideBarIcon
+      {/* <SideBarIcon
         icon={<FaPencilAlt size="28" />}
         text="Edit a movement 💡"
         url="/edit"
-      />
+      /> */}
       <SideBarIcon
-        icon={<FaPlus size="28" />}
+        icon={<FaPencilAlt size="28" />}
         text="Add a movement 💡"
-        url="/add"
+        action={() => { toggleModal(); }}
       />
-      <SideBarIcon
+      {/* <SideBarIcon
         icon={<FaMinus size="28" />}
         text="Delete a movement 💡"
         url="remove"
-      />
+      /> */}
     </div>
 );
 
