@@ -5,11 +5,11 @@ import { Loading } from './Loading';
 import 'react-toastify/dist/ReactToastify.css';
 import { MovementCard } from './MovementCard';
 
-const ContentContainer = ({ searchResults }) => {
+const MovementsList = ({ searchResults }) => {
   const [movements, setMovements] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  console.log('contentcontainer called');
+  console.log('MovementsList called');
   const fetchMovements = async () => {
     console.log('fetch movements');
     try {
@@ -23,15 +23,22 @@ const ContentContainer = ({ searchResults }) => {
     }
   };
 
-  useEffect(() => {
-    if (searchResults) {
-      setMovements(searchResults);
-    } else { fetchMovements(); }
-  }, [searchResults]);
+  useEffect(
+    () => {
+      fetchMovements();
+    },
+    [],
+  );
+
+  // useEffect(() => {
+  //   console.log('movement list use effect');
+  //   if (!searchResults) {
+  //     fetchMovements();
+  //   } else { setMovements(searchResults); }
+  // }, [searchResults]);
 
   const renderCards = (items) => {
     console.log('rendercards called', items);
-
     return (items.map((item) => (
       <MovementCard
         name={item.name}
@@ -43,13 +50,11 @@ const ContentContainer = ({ searchResults }) => {
   };
 
   return (
-    <div>
+    <div className="mx-8">
       {isLoading && <Loading />}
-      {/* if search results exist, render those */}
-      {searchResults ? renderCards(searchResults) : movements && renderCards(movements) }
-
+      {movements && renderCards(movements) }
     </div>
   );
 };
 
-export { ContentContainer };
+export { MovementsList };

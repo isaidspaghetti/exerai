@@ -2,9 +2,7 @@ import React from 'react';
 
 const MovementCard = ({
   name, thumbnail, description, exerId,
-}) => {
-  console.log('movementcard called', name);
-  return (
+}) => (
   <div
     key={exerId}
     className="flex flex-col my-8 items-center bg-secondary-600 rounded-lg border
@@ -12,7 +10,7 @@ const MovementCard = ({
       dark:border-secondary-400 dark:bg-secondary-500 dark:hover:bg-secondary-400"
   >
       <img
-        className="object-cover w-full h-96 rounded-t-lg ml-4 md:h-auto md:w-48 md:rounded-lg"
+        className="object-cover w-full h-96 rounded-t-lg ml-4 my-4 md:h-auto md:w-48 md:rounded-lg"
         src={thumbnail}
         alt="Img coming soon"
       />
@@ -27,7 +25,6 @@ const MovementCard = ({
         </p>
       </div>
   </div>
-  );
-};
+);
 
 export { MovementCard };
