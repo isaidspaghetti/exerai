@@ -42,4 +42,10 @@
   .search-errors {
     @apply flex text-red-500 ml-10 animate-pulse duration-1000;
   }
+
+  .movement-card {
+    @apply flex flex-col my-8 items-center bg-secondary-600 rounded-lg border
+      shadow-md md:flex-row md:max-w-full hover:bg-secondary-500 border-secondary-400
+      dark:border-secondary-400 dark:bg-secondary-500 dark:hover:bg-secondary-400
+  }
 }
