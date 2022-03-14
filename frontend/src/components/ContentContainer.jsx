@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import env from 'react-dotenv';
 import { Loading } from './Loading';
-import 'react-toastify/dist/ReactToastify.css';
 import { MovementCard } from './MovementCard';
 
-const ContentContainer = ({ searchResults }) => {
+const ContentContainer = ({ searchResults, triggerModal }) => {
   const [movements, setMovements] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -14,7 +12,7 @@ const ContentContainer = ({ searchResults }) => {
     console.log('fetch movements');
     try {
       setIsLoading(true);
-      const response = await axios.get(`${env.BASE_BE_URL}/movements`);
+      const response = await axios.get(`${process.env.BASE_BE_URL}/movements`);
       setMovements(response.data);
       setIsLoading(false);
     } catch (err) {
@@ -37,7 +35,9 @@ const ContentContainer = ({ searchResults }) => {
         name={item.name}
         thumbnail={item.thumbnailUrl}
         description={item.actionDescription}
-        exerId={item.id}
+        exerId={item.exerId}
+        movementId={item.id}
+        triggerModal={(type, id) => triggerModal(type, id)}
       />
     )));
   };

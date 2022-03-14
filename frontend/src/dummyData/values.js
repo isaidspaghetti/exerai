@@ -1,11 +1,3 @@
-const exercises = [
-  { value: 6, label: 'External Shoulder Rotation - Side Lying' },
-  { value: 8, label: 'External Rotation - Side-Lying' },
-  { value: 12, label: 'External Shoulder Rotation with Abduction Stretch - Supine' },
-  { value: 23, label: 'Supine Punch' },
-  { value: 26, label: 'Internal Shoulder Rotation' },
-];
-
 const versions = [
   { value: '1.1.0', label: '1.1.0' },
   { value: '1.4.0', label: '1.4.0' },
@@ -19,4 +11,4 @@ const versions = [
   { value: '1.10.1', label: '1.10.1' },
 ];
 
-export { exercises, versions };
+export { versions };

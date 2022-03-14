@@ -2,7 +2,6 @@
 import { React, useState } from 'react';
 import { FaSearch, FaCircleNotch } from 'react-icons/fa';
 import axios from 'axios';
-import env from 'react-dotenv';
 
 const SearchBar = ({ doSetResults }) => {
   const [name, setName] = useState(null);
@@ -46,7 +45,7 @@ const SearchBar = ({ doSetResults }) => {
 
     const queryString = await buildQueryString();
     try {
-      const response = await axios.get(`${env.BASE_BE_URL}${queryString}`);
+      const response = await axios.get(`${process.env.BASE_BE_URL}${queryString}`);
       console.log('res data', response.data);
       // Handle no results: dont have to set global results here, just show a message. Reduces the callbacks bubble.
       if (!response.data.length) {
@@ -79,7 +78,7 @@ const SearchBar = ({ doSetResults }) => {
           placeholder="Search by version"
           value={version || ''}
         />
-        <button type="submit" className="sidebar-icon group mt-0 mr-0" disabled={!name && !version}>
+        <button type="submit" className="button-icon group mt-0 mr-0" disabled={!name && !version}>
           {isLoading ? <FaCircleNotch className="animate-spin-slow" size="28" /> : <FaSearch size="28" />}
         </button>
       </form>
@@ -88,43 +87,5 @@ const SearchBar = ({ doSetResults }) => {
     </>
   );
 };
-
-// const SearchBar = () => {
-//   const {
-//     register, handleSubmit, setError, formState: { errors },
-//   } = useForm();
-//   const onSubmit = (data) => console.log(data);
-
-//   console.log(watch('example')); // watch input value by passing the name of it
-
-//   return (
-//     /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
-//     <form
-//       onSubmit={handleSubmit(onSubmit)}
-//       className="flex justify-center w-full h-12 mt-2"
-//     >
-//       <input
-//         {...register('name')}
-//         className="search-input w-8/12"
-//         placeholder="Search by movement name"
-//       />
-//       <input
-//         {...register('version')}
-//         className="search-input w-3/12 ml-5"
-//         placeholder="Search by version"
-//       />
-//       {/* errors will return when field validation fails  */}
-//       {errors.exampleRequired && <span>This field is required</span>}
-
-//       <button
-//         type="submit"
-//         className="sidebar-icon group mt-0 mr-0"
-//       >
-//         <FaSearch size="28" />
-//       </button>
-//       <p>{errors}</p>
-//     </form>
-//   );
-// };
 
 export { SearchBar };
