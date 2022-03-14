@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from .models import Movement
 from .serializers import MovementSerializer
 
+
 #TODO: cleanup unused views
 class MovementView(generics.ListAPIView):
     # admin create new Movement
@@ -56,10 +57,12 @@ class MovementViewSet(viewsets.ViewSet):
             )
 
     def create(self, request):
+        print('request', request.data.items())
         serializer = MovementSerializer(data=request.data)
         if serializer.is_valid():
-           serializer.save()
-           return Response(serializer.data, status=status.HTTP_201_CREATED)
+            print('isvalid!!!')
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(
             {
                 "message": "Error creating movement.",
@@ -101,7 +104,7 @@ def search(request):
 
     try:
         if name != None:
-            queryset = Movement.objects.filter(name__search=name)
+            queryset = Movement.objects.filter(name__icontains=name)
         if version != None:
             queryset = queryset.filter(versions__icontains=version) if queryset != None else Movement.objects.filter(versions__icontains=version)
     except Exception as e:

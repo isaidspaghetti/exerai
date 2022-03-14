@@ -8,7 +8,7 @@ urlpatterns = [
     # path("api/movements", MovementView.as_view(), name='movements_list'),
     # path('api/<int:pk>', MovementDetail.as_view()),
     path("movements", MovementViewSet.as_view({"get":"list"})),
-    path("movement", MovementViewSet.as_view(
+    path("create", MovementViewSet.as_view(
         {"post": "create"}
     )),
     path("movement/<int:pk>", MovementViewSet.as_view(

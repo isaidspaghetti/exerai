@@ -6,7 +6,7 @@
 
 @layer components {
 /* //Combine tailwind utilities */
-  .sidebar-icon {
+  .button-icon {
     @apply relative flex items-center justify-center
       h-12 w-12 mt-2 mb-2 mx-auto
       bg-secondary-500 hover:bg-tiffany-500
@@ -44,8 +44,11 @@
   }
 
   .movement-card {
-    @apply flex flex-col my-8 items-center bg-secondary-600 rounded-lg border
-      shadow-md md:flex-row md:max-w-full hover:bg-secondary-500 border-secondary-400
-      dark:border-secondary-400 dark:bg-secondary-500 dark:hover:bg-secondary-400
+    @apply flex flex-col my-8 items-center rounded-lg border
+      shadow-md md:flex-row md:max-w-full border-secondary-400 bg-secondary-500 hover:bg-secondary-400
+  }
+
+  .toasty-container{
+    @apply 
   }
 }
