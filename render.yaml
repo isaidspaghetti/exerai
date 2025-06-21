@@ -32,8 +32,9 @@ services:
   - type: web
     name: exerai-frontend
     runtime: static
-    plan: free
+    # Run commands from the repo root as a single line
     buildCommand: "cd frontend && npm install && npm run build"
+    # Specify the publish path from the repo root
     staticPublishPath: "frontend/build"
     envVars:
       - key: REACT_APP_BASE_BE_URL
