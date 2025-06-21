@@ -12,7 +12,7 @@ function App() {
   const [movements, setMovements] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [searchResults, setSearchResults] = useState(null);
-  const [showModal, setShowModal] = useState(false); // Great spot for typescript and/or redux state
+  const [showModal, setShowModal] = useState(false);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('Movement Created!');
   const [selectedCard, setSelectedCard] = useState(null);
@@ -34,9 +34,8 @@ function App() {
   }, []);
 
   const prependMovement = (newMovement) => {
-    setSearchResults(null); // Clear search to ensure the main list is visible
+    setSearchResults(null);
     setMovements((prev) => [newMovement, ...prev]);
-    // Scroll to top to see the new movement
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -44,9 +43,14 @@ function App() {
     setMovements((prev) => prev.filter((m) => m.id !== movementId));
   };
 
+  const updateMovement = (updatedMovement) => {
+    setMovements((prev) =>
+      prev.map((m) => (m.id === updatedMovement.id ? updatedMovement : m)),
+    );
+  };
+
   const doSetSearchResults = useCallback(
     (results) => {
-      // Using a callback here for state, larger app would obviously benefit from reducers, redux, recoil, etc
       setSearchResults(results);
     },
     [searchResults],
@@ -60,7 +64,6 @@ function App() {
   const toggleToast = (message = 'Movement Created!') => {
     setToastMessage(message);
     setShowToast(true);
-    // Auto-hide toast after 3 seconds
     setTimeout(() => {
       setShowToast(false);
     }, 3000);
@@ -93,6 +96,7 @@ function App() {
             selectedCard={selectedCard}
             prependMovement={prependMovement}
             removeMovement={removeMovement}
+            updateMovement={updateMovement}
           />
         )}
       </div>

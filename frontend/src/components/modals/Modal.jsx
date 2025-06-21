@@ -13,6 +13,7 @@ const Modal = ({
   selectedCard, // TODO: selectedCard is a clunky way to get the id should id should be a url param instead
   prependMovement,
   removeMovement,
+  updateMovement,
 }) => {
   return (
     <div
@@ -64,6 +65,7 @@ const Modal = ({
                 triggerModal={() => triggerModal(ModalTypes.HIDE)}
                 toggleToast={() => toggleToast('Movement Updated!')}
                 id={selectedCard}
+                updateMovement={updateMovement}
               />
             )}
             {modalType === ModalTypes.DESTROY && (

@@ -9,7 +9,7 @@ import { exercises } from '../../dummyData/exercises';
 import { selectStyle } from '../../css/selectStyle';
 
 // TODO: This modal could be combined with the CreateModal, but modularized here for product definition branching
-const UpdateModal = ({ triggerModal, toggleToast, id }) => {
+const UpdateModal = ({ triggerModal, toggleToast, id, updateMovement }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [submitted] = useState(null);
   const [changesMade, setChangesMade] = useState(false);
@@ -43,8 +43,12 @@ const UpdateModal = ({ triggerModal, toggleToast, id }) => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      await axios.put(`${window.env.BASE_BE_URL}/movements/${id}/`, values);
+      const response = await axios.put(
+        `${window.env.BASE_BE_URL}/movements/${id}/`,
+        values,
+      );
       if (isMountedRef.current) {
+        updateMovement(response.data);
         setIsLoading(false);
         toggleToast();
         // Don't close modal automatically - let user close it manually
