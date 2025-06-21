@@ -20,6 +20,7 @@ services:
     command: /backend/entrypoint.sh
     volumes:
       - ./backend:/backend
+      - /backend/venv
     ports:
       - "8000:8000"
     depends_on:
@@ -32,6 +33,9 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_HOST=db
       - POSTGRES_PORT=5432
+      - DEBUG=True
+    stdin_open: true
+    tty: true
 
   frontend:
     build:
@@ -44,8 +48,12 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
       - FAST_REFRESH=false
+      - WATCHPACK_POLLING=true
+      - REACT_APP_BASE_BE_URL=http://localhost:8000
     depends_on:
       - backend
+    stdin_open: true
+    tty: true
 
 volumes:
   postgres_data:

@@ -11,8 +11,9 @@ const Modal = ({
   modalType,
   toggleToast,
   selectedCard, // TODO: selectedCard is a clunky way to get the id should id should be a url param instead
+  prependMovement,
+  removeMovement,
 }) => {
-  console.log('id', selectedCard);
   return (
     <div
       id="defaultModal"
@@ -54,7 +55,8 @@ const Modal = ({
             {modalType === ModalTypes.CREATE && (
               <CreateModal
                 triggerModal={() => triggerModal(ModalTypes.HIDE)}
-                toggleToast={() => toggleToast('Movement Created!')}
+                toggleToast={toggleToast}
+                prependMovement={prependMovement}
               />
             )}
             {modalType === ModalTypes.UPDATE && (
@@ -69,6 +71,7 @@ const Modal = ({
                 toggleToast={() => toggleToast('Movement Deleted!')}
                 triggerModal={() => triggerModal(ModalTypes.HIDE)}
                 id={selectedCard}
+                removeMovement={removeMovement}
               />
             )}
           </div>

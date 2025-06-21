@@ -23,10 +23,6 @@ const UpdateModal = ({ triggerModal, toggleToast, id }) => {
     versions: [],
   });
 
-  useEffect(() => {
-    console.log('values', values);
-  }, [values]);
-
   const handleSelectExercise = (e) => {
     setValues({ ...values, exercise: e.value });
   };
