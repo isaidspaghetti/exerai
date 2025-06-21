@@ -20,6 +20,6 @@ if [ -f api/fixtures/movements.json ]; then
   python manage.py loaddata api/fixtures/movements.json || true
 fi
 
-# Start server
-echo "Starting Django app..."
-exec python manage.py runserver 0.0.0.0:8000 
+# Start server with gunicorn
+echo "Starting Django app with Gunicorn..."
+exec gunicorn backend.wsgi:application --bind 0.0.0.0:$PORT 
