@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -56,16 +57,23 @@ STATIC_URL = "/static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Database configuration
+# Use dj-database-url to parse the DATABASE_URL environment variable
 DATABASES = {
-    "default": {
+    'default': dj_database_url.config(
+        default=os.environ.get('DATABASE_URL', 'postgres://postgres:postgres@db/postgres')
+    )
+}
+
+# If running in a local environment without DATABASE_URL, fallback to old settings
+if not os.environ.get('DATABASE_URL'):
+    DATABASES['default'].update({
         "ENGINE": "django.db.backends.postgresql",
         "NAME": os.environ.get('POSTGRES_DB', 'postgres'),
         "USER": os.environ.get('POSTGRES_USER', 'postgres'),
         "PASSWORD": os.environ.get('POSTGRES_PASSWORD', 'postgres'),
         "HOST": os.environ.get('POSTGRES_HOST', 'db'),
         "PORT": os.environ.get('POSTGRES_PORT', '5432'),
-    }
-}
+    })
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS', 'http://localhost:3000,http://127.0.0.1:3000').split(',')

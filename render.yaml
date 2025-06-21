@@ -1,42 +1,22 @@
-services:
-  # PostgreSQL Database
-  - type: pserv
-    name: exerai-db
+databases:
+  - name: exerai-db
     plan: free
     region: oregon
-    postgresMajorVersion: 14
-    databaseName: exerai_db
-    user: exerai_user
 
+services:
   # Django Backend API
   - type: web
     name: exerai-backend
-    env: docker
+    runtime: docker
     plan: free
     region: oregon
     envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: exerai-db
+          property: connectionString
       - key: DJANGO_SETTINGS_MODULE
         value: backend.settings
-      - key: POSTGRES_DB
-        fromDatabase:
-          name: exerai-db
-          property: database
-      - key: POSTGRES_USER
-        fromDatabase:
-          name: exerai-db
-          property: user
-      - key: POSTGRES_PASSWORD
-        fromDatabase:
-          name: exerai-db
-          property: password
-      - key: POSTGRES_HOST
-        fromDatabase:
-          name: exerai-db
-          property: host
-      - key: POSTGRES_PORT
-        fromDatabase:
-          name: exerai-db
-          property: port
       - key: ALLOWED_HOSTS
         value: ".onrender.com"
       - key: CORS_ALLOWED_ORIGINS
@@ -49,8 +29,9 @@ services:
   # React Frontend
   - type: web
     name: exerai-frontend
-    env: static
+    runtime: static
     plan: free
+    region: oregon # Note: region has no effect on static sites but is good practice
     buildCommand: |
       cd frontend
       npm install
