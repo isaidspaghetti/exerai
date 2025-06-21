@@ -44,6 +44,12 @@ function App() {
     setMovements((prev) => prev.filter((m) => m.id !== movementId));
   };
 
+  const updateMovement = (updatedMovement) => {
+    setMovements((prev) =>
+      prev.map((m) => (m.id === updatedMovement.id ? updatedMovement : m)),
+    );
+  };
+
   const doSetSearchResults = useCallback(
     (results) => {
       // Using a callback here for state, larger app would obviously benefit from reducers, redux, recoil, etc
@@ -93,6 +99,7 @@ function App() {
             selectedCard={selectedCard}
             prependMovement={prependMovement}
             removeMovement={removeMovement}
+            updateMovement={updateMovement}
           />
         )}
       </div>
