@@ -33,9 +33,8 @@ services:
     name: exerai-frontend
     runtime: static
     plan: free
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    staticPublishPath: build
+    buildCommand: "cd frontend && npm install && npm run build"
+    staticPublishPath: "frontend/build"
     envVars:
       - key: REACT_APP_BASE_BE_URL
         value: https://exerai-backend.onrender.com
