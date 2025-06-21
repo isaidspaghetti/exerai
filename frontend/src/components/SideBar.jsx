@@ -10,7 +10,6 @@ const SideBar = ({ showAll, triggerModal }) => (
       icon={<FaWalking size="28" />}
       text="View all movements 💡"
       action={() => {
-        console.log('clicked');
         showAll();
       }}
     />

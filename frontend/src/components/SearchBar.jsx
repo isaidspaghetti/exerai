@@ -11,49 +11,53 @@ const SearchBar = ({ doSetResults }) => {
   const [emptyResults, setEmptyResults] = useState(false);
 
   const inputName = (e) => {
-    setName(e.target.value);
+    setName(e.target.value || null);
   };
 
   const inputVersion = (e) => {
-    setVersion(e.target.value);
+    setVersion(e.target.value || null);
   };
 
   const buildQueryString = () => {
-    console.log('call buildstring');
-
     // Build a string to match the BE url params
-    // There are more elegant ways to validate, this is a bit magic numbery and wouldn't be used in larger settings
+    // There are more elegant ways to validate, this is a bit magic numbery and wouldn't be used in larger apps
 
-    // if ((/.*[a-zA-Z].*/g).match(version)) {
-    //   setValidationError({ message: 'Version should not have any letters' });
-    //   return;
-    // }
     const nameString = name && name.trim().replace(/[^a-zA-Z0-9]/g, '+'); // accept only alphnum, replace spaces with +
-    console.log('nameString', nameString);
     const versionString = version && version.trim().replace(/:|\.|;|\s/g, '+');
-    if (name && version) {
+
+    if (nameString && versionString) {
       return `/search/?name=${nameString}&version=${versionString}`;
     }
-    return `/search/?${
-      name ? `name=${nameString}` : `version=${versionString}`
-    }`;
+    if (nameString) {
+      return `/search/?name=${nameString}`;
+    }
+    if (versionString) {
+      return `/search/?version=${versionString}`;
+    }
+    return '';
   };
 
   const handleSubmit = async (e) => {
-    console.log('call submit');
     e.preventDefault();
+
+    if (!name && !version) {
+      return;
+    }
+
     setEmptyResults(false);
     setIsLoading(true);
 
-    const queryString = await buildQueryString();
+    const queryString = buildQueryString();
+    if (!queryString) {
+      setIsLoading(false);
+      return;
+    }
     try {
       const response = await axios.get(
         `${window.env.BASE_BE_URL}${queryString}`,
       );
-      console.log('res data', response.data);
       // Handle no results: dont have to set global results here, just show a message. Reduces the callbacks bubble.
       if (!response.data.length) {
-        console.log('setemptyresults');
         setEmptyResults(true);
       } else {
         doSetResults(response.data);
@@ -70,22 +74,35 @@ const SearchBar = ({ doSetResults }) => {
       <form
         className="flex justify-center w-full h-12 mt-2"
         onSubmit={handleSubmit}
+        autoComplete="off"
       >
         <input
           name="name-input"
           className="search-input w-8/12"
           type="text"
           onChange={inputName}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && !name && !version) {
+              e.preventDefault();
+            }
+          }}
           placeholder="Search by movement name"
           value={name || ''}
+          autoComplete="off"
         />
         <input
           name="version-input"
           className="search-input ml-5 w-3/12"
           type="text"
           onChange={inputVersion}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && !name && !version) {
+              e.preventDefault();
+            }
+          }}
           placeholder="Search by version"
           value={version || ''}
+          autoComplete="off"
         />
         <button
           type="submit"

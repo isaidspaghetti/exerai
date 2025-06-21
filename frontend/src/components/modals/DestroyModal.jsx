@@ -5,8 +5,13 @@ import axios from 'axios';
 import { FaCircleNotch } from 'react-icons/fa';
 import { ModalTypes } from '../../constants/constants';
 
-const DestroyModal = ({ triggerModal, modalType, toggleToast, id }) => {
-  console.log('Modal called...trigerModal', modalType);
+const DestroyModal = ({
+  triggerModal,
+  modalType,
+  toggleToast,
+  id,
+  removeMovement,
+}) => {
   const [isLoading, setIsLoading] = useState(false);
   const [submitted] = useState(null);
   const [values] = useState({
@@ -18,15 +23,12 @@ const DestroyModal = ({ triggerModal, modalType, toggleToast, id }) => {
     versions: [],
   });
 
-  useEffect(() => {
-    console.log('VALUES', values);
-  }, [values]);
-
-  const handleDelete = async e => {
+  const handleDelete = async (e) => {
     e.preventDefault();
     setIsLoading(true);
     try {
       await axios.delete(`${window.env.BASE_BE_URL}/movements/${id}/`);
+      removeMovement(id);
       toggleToast();
       triggerModal();
     } catch (err) {
@@ -34,7 +36,6 @@ const DestroyModal = ({ triggerModal, modalType, toggleToast, id }) => {
     } finally {
       setIsLoading(false);
     }
-    console.log('handleSubmit called');
   };
 
   return (
@@ -58,7 +59,7 @@ const DestroyModal = ({ triggerModal, modalType, toggleToast, id }) => {
             <button
               type="submit"
               className="submit-button m-3 w-40 bg-red-500"
-              onClick={e => handleDelete(e)}
+              onClick={(e) => handleDelete(e)}
             >
               {isLoading ? (
                 <FaCircleNotch className="animate-spin-slow" size="28" />
