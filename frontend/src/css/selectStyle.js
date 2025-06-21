@@ -1,34 +1,30 @@
-const selectStyle = {
-  option: (base) => ({
-    ...base,
-    color: '#2BB9B3',
+export const selectStyle = {
+  control: (provided) => ({
+    ...provided,
+    backgroundColor: '#222',
+    color: '#fff',
+    borderColor: '#444',
   }),
-  singleValue: (base) => ({
-    ...base,
-    color: '#2BB9B3',
+  menu: (provided) => ({
+    ...provided,
+    backgroundColor: '#222',
+    color: '#fff',
   }),
-  control: (base, state) => ({
-    ...base,
-    color: '#2BB9B3',
-    background: '#374151',
-    borderRadius: state.isFocused ? '.5rem' : '.5rem',
-    borderColor: state.isFocused ? '#007AFF' : '#8F9094',
+  option: (provided, state) => ({
+    ...provided,
+    backgroundColor: state.isSelected ? '#444' : '#222',
+    color: '#fff',
+    '&:hover': {
+      backgroundColor: '#333',
+    },
   }),
-  menu: (base) => ({
-    ...base,
-    borderRadius: '0.5rem',
-    marginTop: 0,
+  singleValue: (provided) => ({
+    ...provided,
+    color: '#fff',
   }),
-  menuList: (base) => ({
-    ...base,
-    background: '#374151',
-    border: 'rounded',
-    padding: '.625rem',
-  }),
-  menuPortal: (base) => ({
-    ...base,
-    zIndex: 9000,
+  multiValue: (provided) => ({
+    ...provided,
+    backgroundColor: '#444',
+    color: '#fff',
   }),
 };
-
-export { selectStyle };
