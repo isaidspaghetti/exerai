@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef, useCallback } from 'react';
-import { Loading } from './Loading';
 import { MovementCard } from './MovementCard';
+import { Loading } from './Loading';
 
 const ContentContainer = ({
   movements,
@@ -18,6 +18,15 @@ const ContentContainer = ({
   const loadingRef = useRef();
 
   const data = searchResults || movements;
+
+  useEffect(() => {
+    if (data) {
+      const initialItems = data.slice(0, itemsPerPage);
+      setDisplayedItems(initialItems);
+      setCurrentIndex(itemsPerPage);
+      setHasMore(data.length > itemsPerPage);
+    }
+  }, [data, itemsPerPage]);
 
   const loadMoreItems = useCallback(() => {
     if (isLoadingMore || !data) return;
@@ -49,15 +58,6 @@ const ContentContainer = ({
     [isLoadingMore, hasMore, loadMoreItems],
   );
 
-  useEffect(() => {
-    if (data) {
-      const initialItems = data.slice(0, itemsPerPage);
-      setDisplayedItems(initialItems);
-      setCurrentIndex(itemsPerPage);
-      setHasMore(data.length > itemsPerPage);
-    }
-  }, [data, itemsPerPage]);
-
   const renderCards = (items) => {
     return items.map((item, index) => {
       const isLastElement =
@@ -77,15 +77,17 @@ const ContentContainer = ({
     });
   };
 
+  if (isLoading) {
+    return <Loading />;
+  }
+
   return (
     <div>
-      {isLoading && <Loading />}
-
       {!isLoading && displayedItems.length > 0 && renderCards(displayedItems)}
 
       {isLoadingMore && (
         <div ref={loadingRef} className="flex justify-center items-center py-8">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500" />
           <span className="ml-2 text-gray-600">Loading more...</span>
         </div>
       )}
