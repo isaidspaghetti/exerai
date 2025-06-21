@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-# Wait for DB to be ready
-until pg_isready -h "$POSTGRES_HOST" -U "$POSTGRES_USER"; do
+# Wait for DB to be ready using the DATABASE_URL
+until pg_isready -d "$DATABASE_URL"; do
   echo "Waiting for PostgreSQL..."
   sleep 1
 done
