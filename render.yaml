@@ -10,6 +10,8 @@ services:
     runtime: docker
     plan: free
     region: oregon
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -31,12 +33,9 @@ services:
     name: exerai-frontend
     runtime: static
     plan: free
-    region: oregon # Note: region has no effect on static sites but is good practice
-    buildCommand: |
-      cd frontend
-      npm install
-      npm run build
-    staticPublishPath: ./frontend/build
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: build
     envVars:
       - key: REACT_APP_BASE_BE_URL
         value: https://exerai-backend.onrender.com
