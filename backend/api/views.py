@@ -1,4 +1,3 @@
-
 from django.http import HttpResponse
 from django.shortcuts import render
 from rest_framework import generics, status, viewsets
@@ -49,12 +48,7 @@ class MovementViewSet(viewsets.ViewSet):
             movement = Movement.objects.get(id=id)
             return movement
         except Movement.DoesNotExist:
-            return Response(
-                {
-                    "message": f"Movement with id {id} does not exist.",
-                },
-                status=status.HTTP_400_BAD_REQUEST,
-            )
+            raise Movement.DoesNotExist(f"Movement with id {id} does not exist.")
 
     def create(self, request):
         print('request', request.data.items())
@@ -72,23 +66,47 @@ class MovementViewSet(viewsets.ViewSet):
         )
     
     def retrieve(self, request, pk):
-        movement = self.get_entity(pk)
-        serializer = MovementSerializer(movement)
-        return Response(serializer.data, status.HTTP_200_OK)
+        try:
+            movement = self.get_entity(pk)
+            serializer = MovementSerializer(movement)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except Movement.DoesNotExist as e:
+            return Response(
+                {
+                    "message": str(e),
+                },
+                status=status.HTTP_404_NOT_FOUND,
+            )
 
     def update(self, request, pk):
-        movement = self.get_entity(pk)
-        data = request.data
-        serializer = MovementSerializer(data, partial=True)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        try:
+            movement = self.get_entity(pk)
+            data = request.data
+            serializer = MovementSerializer(movement, data=data, partial=True)
+            if serializer.is_valid():
+                serializer.save()
+                return Response(serializer.data, status=status.HTTP_200_OK)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        except Movement.DoesNotExist as e:
+            return Response(
+                {
+                    "message": str(e),
+                },
+                status=status.HTTP_404_NOT_FOUND,
+            )
 
     def destroy(self, request, pk):
-        movement = self.get_entity(pk)
-        movement.delete()
-        return Response({"message": f"Deleted movement {pk}"}, status=status.HTTP_204_NO_CONTENT)
+        try:
+            movement = self.get_entity(pk)
+            movement.delete()
+            return Response({"message": f"Deleted movement {pk}"}, status=status.HTTP_204_NO_CONTENT)
+        except Movement.DoesNotExist as e:
+            return Response(
+                {
+                    "message": str(e),
+                },
+                status=status.HTTP_404_NOT_FOUND,
+            )
 
 
 @api_view(['GET'])

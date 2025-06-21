@@ -8,7 +8,7 @@
             "exercise": 90,
             "id": 114,
             "name": "Shoulder Flexion (Single), Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-006.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.10.1",
@@ -33,7 +33,7 @@
             "exercise": 36,
             "id": 191,
             "name": "Row - Prone with Weights, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-001.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -51,7 +51,7 @@
             "exercise": 129,
             "id": 151,
             "name": "Push-Ups on Knees, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-008.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/8033009/pexels-photo-8033009.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -76,7 +76,7 @@
             "exercise": 25,
             "id": 77,
             "name": "Internal Shoulder Rotation",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-019.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -99,7 +99,7 @@
             "exercise": 102,
             "id": 189,
             "name": "Shoulder Extension - Prone with Weights, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-002.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/15046713/pexels-photo-15046713.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -124,7 +124,7 @@
             "exercise": 132,
             "id": 209,
             "name": "Internal Shoulder Abduction/Rotation at 90\u00b0 - ROM, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-002.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/117729/pexels-photo-117729.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.4.0",
                 "1.1.0",
@@ -149,7 +149,7 @@
             "exercise": 167,
             "id": 216,
             "name": "Terminal Knee Extension - Supine, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-002.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/20992177/pexels-photo-20992177.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.1",
                 "1.1.0",
@@ -174,7 +174,7 @@
             "exercise": 168,
             "id": 221,
             "name": "Heel Slides - Supine, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-003.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.1",
                 "1.1.0",
@@ -198,12 +198,12 @@
             "exerId": "S-TS-016",
             "exercise": 53,
             "id": 183,
-            "name": "Diagonal Up with Theraband",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-016.jpg",
+            "name": "Diagonal Up",
+            "thumbnailUrl": "https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?w=400&h=300&fit=crop",
             "versions": [
-                "1.5.0",
                 "1.1.0",
                 "1.4.0",
+                "1.5.0",
                 "1.5.1",
                 "1.6.0",
                 "1.7.0",
@@ -224,7 +224,7 @@
             "exercise": 117,
             "id": 60,
             "name": "External Shoulder Rotation",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-018.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.1",
                 "1.1.0",
@@ -247,7 +247,7 @@
             "exercise": 154,
             "id": 184,
             "name": "Tricep Extension with Theraband (Bilateral), Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-008.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/32641565/pexels-photo-32641565.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.0",
                 "1.1.0",
@@ -272,7 +272,7 @@
             "exercise": 149,
             "id": 2,
             "name": "External Rotation Stretch with Cane, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/placeholder.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.0",
                 "1.5.1"
@@ -288,7 +288,7 @@
             "exercise": 164,
             "id": 20,
             "name": "Shoulder Wall Slides with Theraband, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-021.png",
+            "thumbnailUrl": "https://images.pexels.com/photos/96418/pexels-photo-96418.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.0",
                 "1.6.0",
@@ -310,7 +310,7 @@
             "exercise": 120,
             "id": 21,
             "name": "PNF - D1 Diagonal Lifts with Theraband",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/75365d3f-f38e-4e08-9ca4-e98866a851c7.jpeg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7667111/pexels-photo-7667111.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.0",
                 "1.6.0",
@@ -327,19 +327,22 @@
         "model": "api.Movement",
         "pk": 105,
         "fields": {
-            "actionDescription": "\u2022 With your arms in a T position, initiate the movement by pressing both arms out and in. \n\u2022 Keep a slight bend in your elbows and round your shoulder blades as if you were trying to reach around a tree. \n\u2022 Hold for a moment then return to the starting position and repeat.",
+            "actionDescription": "\u2022 With your arms in a T position, initiate the movement by bringing your arms forward in a hugging motion.\n\u2022 Then return to the starting position and repeat.",
             "exerId": "S-TS-023",
             "exercise": 105,
             "id": 1,
-            "name": "Dynamic Hug with Theraband",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/07941b24-9088-4402-9e2c-8b40093b1518.jpeg",
+            "name": "Dynamic Hug",
+            "thumbnailUrl": "https://images.pexels.com/photos/17955019/pexels-photo-17955019.jpeg?w=400&h=300&fit=crop",
             "versions": [
+                "1.1.0",
+                "1.4.0",
                 "1.5.0",
-                "1.7.0",
-                "1.7.1",
                 "1.5.1",
                 "1.6.0",
+                "1.7.0",
+                "1.7.1",
                 "1.7.2",
+                "1.10.1",
                 "1.12.0",
                 "1.9.1"
             ]
@@ -354,7 +357,7 @@
             "exercise": 92,
             "id": 163,
             "name": "Shoulder Flexion to 90\u00ba - Supine with Theraband (Single), Side-Facing",
-            "thumbnailUrl": null,
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.0",
                 "1.7.1",
@@ -375,7 +378,7 @@
             "exercise": 165,
             "id": 201,
             "name": "Row - Standing with Theraband, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/873cdadb-c457-4c04-aaf6-25f80646cf1c.jpeg",
+            "thumbnailUrl": "https://images.pexels.com/photos/6549358/pexels-photo-6549358.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.5.0",
                 "1.7.1",
@@ -397,7 +400,7 @@
             "exercise": 154,
             "id": 203,
             "name": "Tricep Extension with Theraband (Single)",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-020.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4421544/pexels-photo-4421544.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.6.0",
                 "1.1.0",
@@ -421,7 +424,7 @@
             "exercise": 23,
             "id": 120,
             "name": "Supine Punch, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-032.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7188095/pexels-photo-7188095.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.7.2",
                 "1.5.0",
@@ -444,7 +447,7 @@
             "exercise": 25,
             "id": 170,
             "name": "Internal Shoulder Rotation with Theraband",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-002.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -468,7 +471,7 @@
             "exercise": 107,
             "id": 218,
             "name": "Standing T with Theraband with Anchor Point (Bilateral)",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-006.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4719920/pexels-photo-4719920.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -492,7 +495,7 @@
             "exercise": 153,
             "id": 69,
             "name": "Standing I with Theraband with Anchor Point",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-007.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/8436595/pexels-photo-8436595.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -516,7 +519,7 @@
             "exercise": 180,
             "id": 190,
             "name": "Knee Flexion - Prone, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-014.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2908057/pexels-photo-2908057.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -536,7 +539,7 @@
             "exercise": 36,
             "id": 67,
             "name": "Row - Prone, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-003.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7031706/pexels-photo-7031706.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -554,7 +557,7 @@
             "exercise": 152,
             "id": 173,
             "name": "Standing Y with Theraband with Anchor Point",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-005.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/8436595/pexels-photo-8436595.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -578,7 +581,7 @@
             "exercise": 179,
             "id": 205,
             "name": "Hip Flexion to 90\u00ba - Standing, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-013.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7936375/pexels-photo-7936375.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -603,7 +606,7 @@
             "exercise": 177,
             "id": 208,
             "name": "Squat (Prisoner), Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-009S.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/5244025/pexels-photo-5244025.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -628,7 +631,7 @@
             "exercise": 177,
             "id": 207,
             "name": "Squat (Prisoner)",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-009.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4944313/pexels-photo-4944313.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -653,7 +656,7 @@
             "exercise": 175,
             "id": 31,
             "name": "Squat, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-011.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7648144/pexels-photo-7648144.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -678,7 +681,7 @@
             "exercise": 178,
             "id": 168,
             "name": "Bridge (Bilateral), Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-012.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -703,7 +706,7 @@
             "exercise": 134,
             "id": 119,
             "name": "External Shoulder Abduction/Rotation at 0\u00b0 - ROM",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-009.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -728,7 +731,7 @@
             "exercise": 160,
             "id": 101,
             "name": "Row - Seated with Theraband (Bilateral), Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-014.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/8263358/pexels-photo-8263358.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -753,7 +756,7 @@
             "exercise": 169,
             "id": 113,
             "name": "Clamshell with Pillow - Side Lying",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-004.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4506105/pexels-photo-4506105.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.5.0",
@@ -777,7 +780,7 @@
             "exercise": 41,
             "id": 149,
             "name": "Push-Ups, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-003.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7944026/pexels-photo-7944026.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -802,7 +805,7 @@
             "exercise": 136,
             "id": 219,
             "name": "Shoulder Extension - Prone - ROM, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-012.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/32641565/pexels-photo-32641565.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -827,7 +830,7 @@
             "exercise": 102,
             "id": 80,
             "name": "Shoulder Extension - Prone, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-002.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -852,7 +855,7 @@
             "exercise": 6,
             "id": 76,
             "name": "External Shoulder Rotation - Side Lying",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-001.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/6669181/pexels-photo-6669181.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -877,7 +880,7 @@
             "exercise": 8,
             "id": 193,
             "name": "External Rotation - Side-Lying with Weights, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-DS-004.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -902,7 +905,7 @@
             "exercise": 142,
             "id": 87,
             "name": "Internal Shoulder Rotation Stretch - Sidelying, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-SM-005.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7319722/pexels-photo-7319722.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -926,7 +929,7 @@
             "exercise": 37,
             "id": 188,
             "name": "Shoulder Flexion - Supine - ROM, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-010.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -951,7 +954,7 @@
             "exercise": 114,
             "id": 65,
             "name": "Shoulder Flexion AAROM - Supine with Cane, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-014.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.12.0",
@@ -976,7 +979,7 @@
             "exercise": 133,
             "id": 220,
             "name": "External Shoulder Abduction/Rotation at 90\u00b0 - ROM, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-003.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -1001,7 +1004,7 @@
             "exercise": 12,
             "id": 192,
             "name": "External Shoulder Rotation with Abduction Stretch - Supine, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/6eaeec17-fadb-43cc-9d5a-201f2c1ab622.jpeg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7319722/pexels-photo-7319722.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -1024,7 +1027,7 @@
             "exercise": 140,
             "id": 171,
             "name": "External Shoulder Rotation Stretch - Supine, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-SM-002.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7319722/pexels-photo-7319722.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -1048,7 +1051,7 @@
             "exercise": 141,
             "id": 169,
             "name": "Cross Chest Stretch - Supine, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-SM-004.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/31509827/pexels-photo-31509827.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -1072,7 +1075,7 @@
             "exercise": 166,
             "id": 224,
             "name": "Straight Leg Raise (SLR) - Supine, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/HK-AM-001.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/7869509/pexels-photo-7869509.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.10.1",
@@ -1097,7 +1100,7 @@
             "exercise": 160,
             "id": 172,
             "name": "Row - Seated with Theraband (Single), Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-TS-015.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/67836/pexels-photo-67836.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -1122,7 +1125,7 @@
             "exercise": 118,
             "id": 63,
             "name": "Wall Climb, Rear-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-AM-020.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/4046278/pexels-photo-4046278.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -1147,7 +1150,7 @@
             "exercise": 135,
             "id": 215,
             "name": "Shoulder Flexion - ROM, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-011.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",
@@ -1172,7 +1175,7 @@
             "exercise": 137,
             "id": 196,
             "name": "Shoulder Extension - ROM, Side-Facing",
-            "thumbnailUrl": "https://tryout-data.s3.amazonaws.com/thumbnails/S-ROM-013.jpg",
+            "thumbnailUrl": "https://images.pexels.com/photos/32641565/pexels-photo-32641565.jpeg?w=400&h=300&fit=crop",
             "versions": [
                 "1.1.0",
                 "1.4.0",

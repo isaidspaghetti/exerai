@@ -34,7 +34,9 @@ const SearchBar = ({ doSetResults }) => {
     if (name && version) {
       return `/search/?name=${nameString}&version=${versionString}`;
     }
-    return `/search/?${name ? `name=${nameString}` : `version=${versionString}`}`;
+    return `/search/?${
+      name ? `name=${nameString}` : `version=${versionString}`
+    }`;
   };
 
   const handleSubmit = async (e) => {
@@ -45,13 +47,17 @@ const SearchBar = ({ doSetResults }) => {
 
     const queryString = await buildQueryString();
     try {
-      const response = await axios.get(`${process.env.BASE_BE_URL}${queryString}`);
+      const response = await axios.get(
+        `${window.env.BASE_BE_URL}${queryString}`,
+      );
       console.log('res data', response.data);
       // Handle no results: dont have to set global results here, just show a message. Reduces the callbacks bubble.
       if (!response.data.length) {
         console.log('setemptyresults');
         setEmptyResults(true);
-      } else { doSetResults(response.data); }
+      } else {
+        doSetResults(response.data);
+      }
     } catch (err) {
       console.error(err);
     } finally {
@@ -61,7 +67,10 @@ const SearchBar = ({ doSetResults }) => {
 
   return (
     <>
-      <form className="flex justify-center w-full h-12 mt-2" onSubmit={handleSubmit}>
+      <form
+        className="flex justify-center w-full h-12 mt-2"
+        onSubmit={handleSubmit}
+      >
         <input
           name="name-input"
           className="search-input w-8/12"
@@ -78,11 +87,21 @@ const SearchBar = ({ doSetResults }) => {
           placeholder="Search by version"
           value={version || ''}
         />
-        <button type="submit" className="button-icon group mt-0 mr-0" disabled={!name && !version}>
-          {isLoading ? <FaCircleNotch className="animate-spin-slow" size="28" /> : <FaSearch size="28" />}
+        <button
+          type="submit"
+          className="button-icon group mt-0 mr-0"
+          disabled={!name && !version}
+        >
+          {isLoading ? (
+            <FaCircleNotch className="animate-spin-slow" size="28" />
+          ) : (
+            <FaSearch size="28" />
+          )}
         </button>
       </form>
-      {validationError && <span className="search-errors">{`Error:${validationError}`}</span>}
+      {validationError && (
+        <span className="search-errors">{`Error:${validationError}`}</span>
+      )}
       {emptyResults && <span className="search-errors">No results found</span>}
     </>
   );

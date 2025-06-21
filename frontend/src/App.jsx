@@ -11,13 +11,17 @@ function App() {
   const [searchResults, setSearchResults] = useState(null);
   const [showModal, setShowModal] = useState(false); // Great spot for typescript and/or redux state
   const [showToast, setShowToast] = useState(false);
+  const [toastMessage, setToastMessage] = useState('Movement Created!');
   const [selectedCard, setSelectedCard] = useState(null);
 
-  const doSetSearchResults = useCallback((results) => {
-    console.log('dosetresults');
-    // Using a callback here for state, larger app would obviously benefit from reducers, redux, recoil, etc
-    setSearchResults(results);
-  }, [searchResults]);
+  const doSetSearchResults = useCallback(
+    (results) => {
+      console.log('dosetresults');
+      // Using a callback here for state, larger app would obviously benefit from reducers, redux, recoil, etc
+      setSearchResults(results);
+    },
+    [searchResults],
+  );
 
   const triggerModal = (type, id) => {
     console.log('triggerModal called, type:', type, id);
@@ -25,15 +29,18 @@ function App() {
     setSelectedCard(id);
   };
 
-  const toggleToast = () => {
+  const toggleToast = (message = 'Movement Created!') => {
+    setToastMessage(message);
     setShowToast(true);
-    console.log('show ig');
-    const timer = setTimeout(() => {
-    }, 1000);
-    return () => {
-      clearTimeout(timer);
+    console.log('show toast');
+    // Auto-hide toast after 3 seconds
+    setTimeout(() => {
       setShowToast(false);
-    };
+    }, 3000);
+  };
+
+  const hideToast = () => {
+    setShowToast(false);
   };
 
   return (
@@ -44,18 +51,20 @@ function App() {
       />
       <div className="flex flex-col w-full ml-5 mr-20">
         <SearchBar doSetResults={(v) => doSetSearchResults(v)} />
-        {showToast && <Toasty toggleToast={() => toggleToast()} />}
+        {showToast && <Toasty toggleToast={hideToast} message={toastMessage} />}
         <ContentContainer
           searchResults={searchResults}
           doSetSearchResults={doSetSearchResults}
           triggerModal={(type, id) => triggerModal(type, id)}
         />
-        {showModal && <Modal
-          triggerModal={() => triggerModal(ModalTypes.HIDE)}
-          modalType={showModal}
-          toggleToast={() => toggleToast()}
-          selectedCard={selectedCard}
-        />}
+        {showModal && (
+          <Modal
+            triggerModal={() => triggerModal(ModalTypes.HIDE)}
+            modalType={showModal}
+            toggleToast={() => toggleToast()}
+            selectedCard={selectedCard}
+          />
+        )}
       </div>
     </div>
   );

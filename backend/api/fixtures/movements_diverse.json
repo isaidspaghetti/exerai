@@ -1,0 +1,238 @@
+[
+	{
+		"model": "api.Movement",
+		"pk": 90,
+		"fields": {
+			"actionDescription": "\u2022 Start with the involved arm extended down at the hip.\n\u2022 Move the involved arm forward while maintaining an extended state.\n\u2022 Ensure that the thumb is pointed upwards to the ceiling as you move your involved arm. \n\u2022 Once you reach your maximum range of motion, return to the starting position to complete one rep.",
+			"exerId": "S-AM-006",
+			"exercise": 90,
+			"id": 114,
+			"name": "Shoulder Flexion (Single), Side-Facing",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.1.0",
+				"1.10.1",
+				"1.5.1",
+				"1.4.0",
+				"1.5.0",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.12.0",
+				"1.9.1"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 36,
+		"fields": {
+			"actionDescription": "\u2022 Drop the involved arm off the side so that it hangs down. \n\u2022 Begin the movement by activating the scapula and packing it back in toward the spine for joint stability.\n\u2022 Row the involved arm up toward the ceiling till it is at least 90 degrees at the elbow.\n\u2022 Pause slightly then return to the starting position for the completion of a rep.",
+			"exerId": "S-DS-001",
+			"exercise": 36,
+			"id": 191,
+			"name": "Row - Prone with Weights, Side-Facing",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": ["1.1.0", "1.4.0", "1.5.0", "1.5.1"]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 129,
+		"fields": {
+			"actionDescription": "\u2022 Start from a \u201cmodified high plank\u201d; arms straight, hands slightly wider than shoulder width, shoulders above wrists, core engaged, knees bent to 90 degrees so feet are off the floor.\n\u2022 Keep shoulders, hips, and knees in line as your slowly lower your chest toward the floor while bending your elbows.\n\u2022 Keep your elbows just slightly off your body to avoid them from flaring out.\n\u2022 Stop at your desired height based on ability.\n\u2022 Push back up to the starting position for the completion of a rep.",
+			"exerId": "S-DS-008",
+			"exercise": 129,
+			"id": 151,
+			"name": "Push-Ups on Knees, Side-Facing",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.1.0",
+				"1.4.0",
+				"1.5.0",
+				"1.5.1",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.10.1",
+				"1.12.0",
+				"1.9.1"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 25,
+		"fields": {
+			"actionDescription": "\u2022 Elbow in as close to the ribs as possible, maintaining that throughout the duration of the exercise. \n\u2022 Keep the arm bent at 90 degrees (whether holding weight or band), and bring the hand/arm in towards the midline of the body and then slowly bring it back to the start.",
+			"exerId": "S-AM-019",
+			"exercise": 25,
+			"id": 77,
+			"name": "Internal Shoulder Rotation",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.1.0",
+				"1.4.0",
+				"1.5.1",
+				"1.5.0",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.9.1"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 102,
+		"fields": {
+			"actionDescription": "\u2022 Rest your head into the forearm of your uninvolved arm.\n\u2022 Straighten the involved arm so that the hand is by the hip with the thumb pointing down toward the ground. \n\u2022 Make sure the weight used is manageable before attempting a rep. \n\u2022 Maintain an extended arm as you move it up toward the ceiling. \n\u2022 Move till there is slight tension but no pain.\n\u2022 Return to the starting position for the completion of a rep.",
+			"exerId": "S-DS-002",
+			"exercise": 102,
+			"id": 189,
+			"name": "Shoulder Extension - Prone with Weights, Side-Facing",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.1.0",
+				"1.4.0",
+				"1.5.1",
+				"1.5.0",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.10.1",
+				"1.12.0",
+				"1.9.1"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 132,
+		"fields": {
+			"actionDescription": "\u2022 Slide the elbow of the involved side out so that it is aligned with the shoulder while maintaining contact with the ground at all times.\n\u2022 Slowly lower the hand toward the feet while keeping the elbow pivoted on the ground. \n\u2022 Complete the downward range and return to the 90 degree starting position for the completion of a rep. \n\u2022 Minor tension is okay but there should not be any pain associated with this movement.",
+			"exerId": "S-ROM-002",
+			"exercise": 132,
+			"id": 209,
+			"name": "Internal Shoulder Abduction/Rotation at 90\u00b0 - ROM, Side-Facing",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.4.0",
+				"1.1.0",
+				"1.5.0",
+				"1.5.1",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.12.0",
+				"1.10.1",
+				"1.9.1"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 167,
+		"fields": {
+			"actionDescription": "\u2022 The uninvolved leg can be bent at that knee with the foot flat on the ground. \n\u2022 Roll up a towel or use a soft pillow and place it underneath the achilles/heel area of the involved leg. \n\u2022 This will keep the involved leg elevated so that there is a bridge effect at the knee joint. \n\u2022 With the involved leg activated, try and touch the ground with the bottom of the involved knee, promoting extension at the joint. \n\u2022 Tension is okay but pain is not. \n\u2022 Return to the activated, slightly bent knee position and repeat.",
+			"exerId": "HK-AM-002",
+			"exercise": 167,
+			"id": 216,
+			"name": "Terminal Knee Extension - Supine, Side-Facing",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.5.1",
+				"1.1.0",
+				"1.10.1",
+				"1.4.0",
+				"1.5.0",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.9.1",
+				"1.12.0"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 168,
+		"fields": {
+			"actionDescription": "\u2022 The uninvolved leg can be bent at that knee with the foot flat on the ground. \n\u2022 Carefully straighten the involved leg out so that it is out in front.\n\u2022 Remove any shoe or slipper that may add friction to the movement. \n\u2022 Start by flexing the toes of the involved leg toward the shin and slide the heel toward your butt. \n\u2022 Promote as much range of motion as possible.\n\u2022 Returning to the starting position for the completion of a rep.",
+			"exerId": "HK-AM-003",
+			"exercise": 168,
+			"id": 221,
+			"name": "Heel Slides - Supine, Side-Facing",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.5.1",
+				"1.1.0",
+				"1.4.0",
+				"1.5.0",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.10.1",
+				"1.9.1",
+				"1.12.0"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 53,
+		"fields": {
+			"actionDescription": "\u2022 Wrap the theraband to a lower anchor point. \n\u2022 You can use your foot as an anchor point. \n\u2022 Start the involved arm with a small bend at the elbow and slightly out in front of the body. \n\u2022 Raise the arm up laterally while maintaining the bent position to a point of tension but not pain. \n\u2022 Return to starting position for the completion of a rep.",
+			"exerId": "S-TS-016",
+			"exercise": 53,
+			"id": 183,
+			"name": "Diagonal Up",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.1.0",
+				"1.4.0",
+				"1.5.0",
+				"1.5.1",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.10.1",
+				"1.12.0",
+				"1.9.1"
+			]
+		}
+	},
+	{
+		"model": "api.Movement",
+		"pk": 105,
+		"fields": {
+			"actionDescription": "\u2022 With your arms in a T position, initiate the movement by bringing your arms forward in a hugging motion.\n\u2022 Then return to the starting position and repeat.",
+			"exerId": "S-TS-023",
+			"exercise": 105,
+			"id": 1,
+			"name": "Dynamic Hug",
+			"thumbnailUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+			"versions": [
+				"1.1.0",
+				"1.4.0",
+				"1.5.0",
+				"1.5.1",
+				"1.6.0",
+				"1.7.0",
+				"1.7.1",
+				"1.7.2",
+				"1.10.1",
+				"1.12.0",
+				"1.9.1"
+			]
+		}
+	}
+]
